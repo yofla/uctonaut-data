@@ -1,7 +1,8 @@
 {
   "version": "1.0.0",
+  "updatedAt": "7. 1. 2024 22:57:30",
   "name": "Kategórie",
-  "description": "Zoznam kategórií, podľa ktorých sa dajú spájať polužky účtov do skupín",
+  "description": "Zoznam kategórií pre položky účtov",
   "data": {
     "K001": {
       "type": "kategoria",
@@ -649,6 +650,5 @@
       "type": "znacka",
       "name": "Lúčina"
     }
-  },
-  "updatedAt": "7. 1. 2024 22:52:21"
+  }
 }
