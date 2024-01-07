@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "7. 1. 2024 23:21:36",
+  "updatedAt": "7. 1. 2024 23:56:10",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -362,6 +362,21 @@
       "type": "kategoria",
       "name": "Káva",
       "parent": "K057"
+    },
+    "V027": {
+      "type": "vlastnost",
+      "name": "instantná",
+      "parent": "K060"
+    },
+    "B027": {
+      "type": "vlastnost",
+      "name": "200g",
+      "parent": "K060"
+    },
+    "Z012": {
+      "type": "znacka",
+      "name": "Jacobs Velvet",
+      "parent": "K060"
     },
     "K061": {
       "type": "kategoria",
