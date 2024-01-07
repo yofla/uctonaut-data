@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "7. 1. 2024 23:09:50",
+  "updatedAt": "7. 1. 2024 23:12:08",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -112,6 +112,11 @@
       "type": "vlastnost",
       "parent": "K074",
       "name": "vanilkový"
+    },
+    "V026": {
+      "type": "vlastnost",
+      "parent": "K074",
+      "name": "ľadová káva"
     },
     "B001": {
       "type": "balenie",
