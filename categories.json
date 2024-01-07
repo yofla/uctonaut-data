@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "7. 1. 2024 23:02:42",
+  "updatedAt": "7. 1. 2024 23:09:50",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -377,6 +377,36 @@
       "type": "kategoria",
       "name": "Vajcia",
       "parent": "K057"
+    },
+    "B024": {
+      "type": "balenie",
+      "name": "10ks",
+      "parent": "K065"
+    },
+    "B025": {
+      "type": "balenie",
+      "name": "12ks",
+      "parent": "K065"
+    },
+    "B026": {
+      "type": "balenie",
+      "name": "6ks",
+      "parent": "K065"
+    },
+    "V023": {
+      "type": "vlastnost",
+      "name": "klietkový chov",
+      "parent": "K065"
+    },
+    "V024": {
+      "type": "vlastnost",
+      "name": "podstieľkový chov",
+      "parent": "K065"
+    },
+    "V025": {
+      "type": "vlastnost",
+      "name": "voľný výbeh",
+      "parent": "K065"
     },
     "K066": {
       "type": "kategoria",
