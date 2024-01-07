@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "7. 1. 2024 22:57:30",
+  "updatedAt": "7. 1. 2024 23:01:59",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -98,12 +98,17 @@
       "parent": "K074",
       "name": "250ml"
     },
-    "B021": {
+    "B023": {
+      "type": "balenie",
+      "parent": "K074",
+      "name": "400ml"
+    },
+    "V021": {
       "type": "vlastnost",
       "parent": "K074",
       "name": "čokoládový"
     },
-    "B022": {
+    "V022": {
       "type": "vlastnost",
       "parent": "K074",
       "name": "vanilkový"
@@ -648,7 +653,15 @@
     },
     "Z009": {
       "type": "znacka",
+      "name": "Nea Relax"
+    },
+    "Z010": {
+      "type": "znacka",
       "name": "Lúčina"
+    },
+    "Z011": {
+      "type": "znacka",
+      "name": "Mullermilch"
     }
   }
 }
