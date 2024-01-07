@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "7. 1. 2024 23:12:08",
+  "updatedAt": "7. 1. 2024 23:21:36",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -312,6 +312,11 @@
       "type": "kategoria",
       "name": "Polotovary a hotové jedlá",
       "parent": "K001"
+    },
+    "K095": {
+      "type": "kategoria",
+      "name": "Bagety, sendviče",
+      "parent": "K056"
     },
     "K090": {
       "type": "kategoria",
