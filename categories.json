@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "21. 1. 2024 07:42:11",
+  "updatedAt": "21. 1. 2024 07:54:04",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -308,6 +308,36 @@
       "name": "Sladkosti",
       "parent": "K050"
     },
+    "B008": {
+      "type": "balenie",
+      "parent": "K052",
+      "name": "80g"
+    },
+    "B029": {
+      "type": "balenie",
+      "parent": "K052",
+      "name": "270g"
+    },
+    "V009": {
+      "type": "vlastnost",
+      "name": "Exkluziv 38%",
+      "parent": "K091"
+    },
+    "Z013": {
+      "type": "znacka",
+      "parent": "K052",
+      "name": "Milka"
+    },
+    "Z014": {
+      "type": "znacka",
+      "parent": "K052",
+      "name": "Figaro"
+    },
+    "Z015": {
+      "type": "znacka",
+      "parent": "K052",
+      "name": "Snickers"
+    },
     "K056": {
       "type": "kategoria",
       "name": "Polotovary a hotové jedlá",
@@ -327,11 +357,6 @@
       "type": "kategoria",
       "name": "Treska",
       "parent": "K090"
-    },
-    "V009": {
-      "type": "balenie",
-      "parent": "K052",
-      "name": "280g"
     },
     "B016": {
       "type": "balenie",
@@ -497,11 +522,6 @@
       "type": "balenie",
       "parent": "K055",
       "name": "125g"
-    },
-    "B008": {
-      "type": "balenie",
-      "parent": "K052",
-      "name": "80g"
     },
     "K013": {
       "type": "kategoria",
