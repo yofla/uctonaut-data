@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "21. 1. 2024 07:54:04",
+  "updatedAt": "21. 1. 2024 08:10:33",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -67,6 +67,21 @@
       "type": "kategoria",
       "name": "Maslo",
       "parent": "K002"
+    },
+    "B030": {
+      "type": "balenie",
+      "name": "250g",
+      "parent": "K010"
+    },
+    "B031": {
+      "type": "balenie",
+      "name": "200g",
+      "parent": "K010"
+    },
+    "B032": {
+      "type": "balenie",
+      "name": "125g",
+      "parent": "K010"
     },
     "K011": {
       "type": "kategoria",
@@ -318,11 +333,6 @@
       "parent": "K052",
       "name": "270g"
     },
-    "K091": {
-      "type": "kategoria",
-      "name": "Treska",
-      "parent": "K090"
-    },
     "V009": {
       "type": "vlastnost",
       "name": "Exkluziv 38%",
@@ -357,6 +367,11 @@
       "type": "kategoria",
       "name": "Majonézové šaláty",
       "parent": "K056"
+    },
+    "K091": {
+      "type": "kategoria",
+      "name": "Treska",
+      "parent": "K090"
     },
     "B016": {
       "type": "balenie",
