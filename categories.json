@@ -318,6 +318,11 @@
       "parent": "K052",
       "name": "270g"
     },
+    "K091": {
+      "type": "kategoria",
+      "name": "Treska",
+      "parent": "K090"
+    },
     "V009": {
       "type": "vlastnost",
       "name": "Exkluziv 38%",
@@ -352,11 +357,6 @@
       "type": "kategoria",
       "name": "Majonézové šaláty",
       "parent": "K056"
-    },
-    "K091": {
-      "type": "kategoria",
-      "name": "Treska",
-      "parent": "K090"
     },
     "B016": {
       "type": "balenie",
