@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "7. 1. 2024 23:58:09",
+  "updatedAt": "21. 1. 2024 07:42:11",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -352,6 +352,31 @@
       "type": "kategoria",
       "name": "Múka",
       "parent": "K057"
+    },
+    "B028": {
+      "type": "balenie",
+      "name": "1kg",
+      "parent": "K058"
+    },
+    "V028": {
+      "type": "vlastnost",
+      "name": "hladká",
+      "parent": "K058"
+    },
+    "V029": {
+      "type": "vlastnost",
+      "name": "polohrubá",
+      "parent": "K058"
+    },
+    "V030": {
+      "type": "vlastnost",
+      "name": "hrubá",
+      "parent": "K058"
+    },
+    "V031": {
+      "type": "vlastnost",
+      "name": "extra špeciál",
+      "parent": "K058"
     },
     "K059": {
       "type": "kategoria",
