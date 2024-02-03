@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "3. 2. 2024 06:59:27",
+  "updatedAt": "3. 2. 2024 07:09:25",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -177,6 +177,21 @@
       "type": "kategoria",
       "name": "Balené vody",
       "parent": "K046"
+    },
+    "V040": {
+      "type": "vlastnost",
+      "name": "neperlivá",
+      "parent": "K048"
+    },
+    "V041": {
+      "type": "vlastnost",
+      "name": "jemne perlivá",
+      "parent": "K048"
+    },
+    "V042": {
+      "type": "vlastnost",
+      "name": "perlivá",
+      "parent": "K048"
     },
     "K049": {
       "type": "kategoria",
