@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "24. 1. 2024 10:45:35",
+  "updatedAt": "3. 2. 2024 06:36:14",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -110,8 +110,8 @@
     },
     "B033": {
       "type": "balenie",
-      "parent": "K074",
-      "name": "90g"
+      "name": "1l",
+      "parent": "K046"
     },
     "B019": {
       "type": "balenie",
@@ -183,37 +183,52 @@
       "name": "Ďzúsy",
       "parent": "K046"
     },
-    "K075": {
-      "type": "balenie",
-      "name": "1l",
-      "parent": "K046"
+    "V032": {
+      "type": "vlastnost",
+      "name": "Pomarančový",
+      "parent": "K049"
     },
-    "K076": {
+    "V033": {
+      "type": "vlastnost",
+      "name": "Jablkový",
+      "parent": "K049"
+    },
+    "V034": {
+      "type": "vlastnost",
+      "name": "Hruškový",
+      "parent": "K049"
+    },
+    "V035": {
+      "type": "vlastnost",
+      "name": "Multivitamín",
+      "parent": "K049"
+    },
+    "B034": {
       "type": "balenie",
       "name": "0.75l",
       "parent": "K046"
     },
-    "K077": {
+    "B035": {
       "type": "balenie",
       "name": "0.5l",
       "parent": "K046"
     },
-    "K080": {
+    "B036": {
       "type": "balenie",
       "name": "1.5l",
       "parent": "K046"
     },
-    "K081": {
+    "B037": {
       "type": "balenie",
       "name": "6*1.5l",
       "parent": "K046"
     },
-    "K078": {
+    "B038": {
       "type": "balenie",
       "name": "2l",
       "parent": "K046"
     },
-    "K079": {
+    "B039": {
       "type": "balenie",
       "name": "2.5l",
       "parent": "K046"
