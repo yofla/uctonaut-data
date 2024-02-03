@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "3. 2. 2024 06:36:14",
+  "updatedAt": "3. 2. 2024 06:42:15",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -201,6 +201,26 @@
     "V035": {
       "type": "vlastnost",
       "name": "Multivitamín",
+      "parent": "K049"
+    },
+    "V036": {
+      "type": "vlastnost",
+      "name": "Grepový",
+      "parent": "K049"
+    },
+    "V037": {
+      "type": "vlastnost",
+      "name": "100%",
+      "parent": "K049"
+    },
+    "V038": {
+      "type": "vlastnost",
+      "name": "z koncentrátu",
+      "parent": "K049"
+    },
+    "V039": {
+      "type": "vlastnost",
+      "name": "za studena listovaný",
       "parent": "K049"
     },
     "B034": {
