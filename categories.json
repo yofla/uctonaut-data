@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "3. 2. 2024 07:17:54",
+  "updatedAt": "3. 2. 2024 07:34:26",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -10,7 +10,7 @@
     },
     "K069": {
       "type": "kategoria",
-      "name": "Hotové Jedlá",
+      "name": "Hotové Jedlá (pripravené v obchode)",
       "parent": "K001"
     },
     "K042": {
@@ -510,7 +510,7 @@
     },
     "K056": {
       "type": "kategoria",
-      "name": "Polotovary a hotové jedlá",
+      "name": "Studené jedlá, instatné a mrazené jedlá",
       "parent": "K001"
     },
     "K095": {
