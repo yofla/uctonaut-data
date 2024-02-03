@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "3. 2. 2024 07:09:25",
+  "updatedAt": "3. 2. 2024 07:17:54",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -195,7 +195,7 @@
     },
     "K049": {
       "type": "kategoria",
-      "name": "Ďzúsy",
+      "name": "Džúsy",
       "parent": "K046"
     },
     "V032": {
@@ -325,7 +325,7 @@
     },
     "K099": {
       "type": "kategoria",
-      "name": "Hrušky",
+      "name": "Slivky",
       "parent": "K054"
     },
     "K100": {
@@ -395,7 +395,7 @@
     },
     "K113": {
       "type": "kategoria",
-      "name": "Fíky",
+      "name": "Figy",
       "parent": "K054"
     },
     "K114": {
@@ -411,7 +411,7 @@
     "K094": {
       "type": "kategoria",
       "parent": "K001",
-      "name": "Med, Ďžem"
+      "name": "Med, Džem"
     },
     "B017": {
       "type": "balenie",
@@ -998,7 +998,7 @@
     },
     "Z009": {
       "type": "znacka",
-      "name": "Nea Relax"
+      "name": "Relax"
     },
     "Z010": {
       "type": "znacka",
@@ -1011,6 +1011,10 @@
     "Z016": {
       "type": "znacka",
       "name": "Pribináčik"
+    },
+    "Z017": {
+      "type": "znacka",
+      "name": "Happy Day"
     }
   }
 }
