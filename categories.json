@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "3. 2. 2024 06:42:15",
+  "updatedAt": "3. 2. 2024 06:59:27",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -293,6 +293,106 @@
       "name": "Ovocie",
       "parent": "K001"
     },
+    "K096": {
+      "type": "kategoria",
+      "name": "Jablká",
+      "parent": "K054"
+    },
+    "K097": {
+      "type": "kategoria",
+      "name": "Banány",
+      "parent": "K054"
+    },
+    "K098": {
+      "type": "kategoria",
+      "name": "Čučoriedky",
+      "parent": "K054"
+    },
+    "K099": {
+      "type": "kategoria",
+      "name": "Hrušky",
+      "parent": "K054"
+    },
+    "K100": {
+      "type": "kategoria",
+      "name": "Hrušky",
+      "parent": "K054"
+    },
+    "K101": {
+      "type": "kategoria",
+      "name": "Pomaranče",
+      "parent": "K054"
+    },
+    "K102": {
+      "type": "kategoria",
+      "name": "Kiwis",
+      "parent": "K054"
+    },
+    "K103": {
+      "type": "kategoria",
+      "name": "Mangá",
+      "parent": "K054"
+    },
+    "K104": {
+      "type": "kategoria",
+      "name": "Hrozno",
+      "parent": "K054"
+    },
+    "K105": {
+      "type": "kategoria",
+      "name": "Melóny",
+      "parent": "K054"
+    },
+    "K106": {
+      "type": "kategoria",
+      "name": "Ananásy",
+      "parent": "K054"
+    },
+    "K107": {
+      "type": "kategoria",
+      "name": "Jahody",
+      "parent": "K054"
+    },
+    "K108": {
+      "type": "kategoria",
+      "name": "Maliny",
+      "parent": "K054"
+    },
+    "K109": {
+      "type": "kategoria",
+      "name": "Čerešne",
+      "parent": "K054"
+    },
+    "K110": {
+      "type": "kategoria",
+      "name": "Broskyne",
+      "parent": "K054"
+    },
+    "K111": {
+      "type": "kategoria",
+      "name": "Nektarinky",
+      "parent": "K054"
+    },
+    "K112": {
+      "type": "kategoria",
+      "name": "Papája",
+      "parent": "K054"
+    },
+    "K113": {
+      "type": "kategoria",
+      "name": "Fíky",
+      "parent": "K054"
+    },
+    "K114": {
+      "type": "kategoria",
+      "name": "Granátové jablká",
+      "parent": "K054"
+    },
+    "K115": {
+      "type": "kategoria",
+      "name": "Avokádo",
+      "parent": "K054"
+    },
     "K094": {
       "type": "kategoria",
       "parent": "K001",
@@ -557,6 +657,81 @@
       "type": "kategoria",
       "name": "Zelenina",
       "parent": "K001"
+    },
+    "K116": {
+      "type": "kategoria",
+      "name": "Mrkva",
+      "parent": "K055"
+    },
+    "K117": {
+      "type": "kategoria",
+      "name": "Zemiaky",
+      "parent": "K055"
+    },
+    "K118": {
+      "type": "kategoria",
+      "name": "Brokolica",
+      "parent": "K055"
+    },
+    "K119": {
+      "type": "kategoria",
+      "name": "Cvikla",
+      "parent": "K055"
+    },
+    "K120": {
+      "type": "kategoria",
+      "name": "Cibula",
+      "parent": "K055"
+    },
+    "K121": {
+      "type": "kategoria",
+      "name": "Červená paprika",
+      "parent": "K055"
+    },
+    "K122": {
+      "type": "kategoria",
+      "name": "Paradajky",
+      "parent": "K055"
+    },
+    "K123": {
+      "type": "kategoria",
+      "name": "Uhorky",
+      "parent": "K055"
+    },
+    "K124": {
+      "type": "kategoria",
+      "name": "Špenát",
+      "parent": "K055"
+    },
+    "K125": {
+      "type": "kategoria",
+      "name": "Salát",
+      "parent": "K055"
+    },
+    "K126": {
+      "type": "kategoria",
+      "name": "Cesnak",
+      "parent": "K055"
+    },
+    "K127": {
+      "type": "kategoria",
+      "name": "Kukurica",
+      "parent": "K055"
+    },
+    "K128": {
+      "type": "kategoria",
+      "name": "Fazuľa",
+      "parent": "K055"
+    },
+    "K129": {
+      "type": "kategoria",
+      "name": "Hrášok",
+      "parent": "K055"
+    },
+    "K130": {
+      "type": "kategoria",
+      "name": "Kapusta",
+      "parent": "K055"
     },
     "B002": {
       "type": "balenie",
