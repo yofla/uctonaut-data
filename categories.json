@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "4. 2. 2024 17:14:11",
+  "updatedAt": "4. 2. 2024 17:16:01",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -606,6 +606,11 @@
     "V047": {
       "type": "vlastnost",
       "name": "vo vlastnej šťave",
+      "parent": "K140"
+    },
+    "V048": {
+      "type": "vlastnost",
+      "name": "vo paradajkovej šťave",
       "parent": "K140"
     },
     "B040": {
