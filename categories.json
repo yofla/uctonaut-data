@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "4. 2. 2024 16:30:20",
+  "updatedAt": "4. 2. 2024 17:14:11",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -550,7 +550,7 @@
     },
     "K056": {
       "type": "kategoria",
-      "name": "Studené, instatné a mrazené jedlá, polotovary",
+      "name": "Studené, instatné a mrazené jedlá, konzervy, polotovary",
       "parent": "K001"
     },
     "K095": {
@@ -577,6 +577,46 @@
       "type": "kategoria",
       "name": "Ryby a výrobky z nich",
       "parent": "K001"
+    },
+    "K140": {
+      "type": "kategoria",
+      "name": "Rybie konzervy",
+      "parent": "K043"
+    },
+    "V043": {
+      "type": "vlastnost",
+      "name": "tuniak",
+      "parent": "K140"
+    },
+    "V044": {
+      "type": "vlastnost",
+      "name": "sleď",
+      "parent": "K140"
+    },
+    "V045": {
+      "type": "vlastnost",
+      "name": "v oleji olivovom",
+      "parent": "K140"
+    },
+    "V046": {
+      "type": "vlastnost",
+      "name": "v oleji slnečnicovom",
+      "parent": "K140"
+    },
+    "V047": {
+      "type": "vlastnost",
+      "name": "vo vlastnej šťave",
+      "parent": "K140"
+    },
+    "B040": {
+      "type": "balenie",
+      "name": "80g",
+      "parent": "K140"
+    },
+    "B041": {
+      "type": "balenie",
+      "name": "3x80g",
+      "parent": "K140"
     },
     "K057": {
       "type": "kategoria",
