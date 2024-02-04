@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "4. 2. 2024 16:18:17",
+  "updatedAt": "4. 2. 2024 16:24:08",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -17,6 +17,41 @@
       "type": "kategoria",
       "name": "Mäso a výrobky z neho",
       "parent": "K001"
+    },
+    "K132": {
+      "type": "kategoria",
+      "name": "šunka",
+      "parent": "K042"
+    },
+    "K133": {
+      "type": "kategoria",
+      "name": "saláma",
+      "parent": "K042"
+    },
+    "K134": {
+      "type": "kategoria",
+      "name": "slanina",
+      "parent": "K042"
+    },
+    "K135": {
+      "type": "kategoria",
+      "name": "párky",
+      "parent": "K042"
+    },
+    "K136": {
+      "type": "kategoria",
+      "name": "kuracie maso",
+      "parent": "K042"
+    },
+    "K13ý": {
+      "type": "kategoria",
+      "name": "bravčové maso",
+      "parent": "K042"
+    },
+    "K13á": {
+      "type": "kategoria",
+      "name": "hovädzie maso",
+      "parent": "K042"
     },
     "K002": {
       "type": "kategoria",
