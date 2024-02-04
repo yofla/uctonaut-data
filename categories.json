@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "3. 2. 2024 07:34:26",
+  "updatedAt": "4. 2. 2024 16:17:45",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -510,7 +510,7 @@
     },
     "K056": {
       "type": "kategoria",
-      "name": "Studené jedlá, instatné a mrazené jedlá",
+      "name": "Studené, instatné a mrazené jedlá, polotovary",
       "parent": "K001"
     },
     "K095": {
@@ -747,6 +747,11 @@
       "type": "kategoria",
       "name": "Kapusta",
       "parent": "K055"
+    },
+    "K131": {
+      "type": "kategoria",
+      "name": "Cereálie",
+      "parent": "K001"
     },
     "B002": {
       "type": "balenie",
