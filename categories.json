@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "4. 2. 2024 16:24:08",
+  "updatedAt": "4. 2. 2024 16:29:00",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -43,12 +43,12 @@
       "name": "kuracie maso",
       "parent": "K042"
     },
-    "K13ý": {
+    "K137": {
       "type": "kategoria",
       "name": "bravčové maso",
       "parent": "K042"
     },
-    "K13á": {
+    "K138": {
       "type": "kategoria",
       "name": "hovädzie maso",
       "parent": "K042"
@@ -360,7 +360,7 @@
     },
     "K099": {
       "type": "kategoria",
-      "name": "Slivky",
+      "name": "Hrušky",
       "parent": "K054"
     },
     "K100": {
@@ -441,6 +441,11 @@
     "K115": {
       "type": "kategoria",
       "name": "Avokádo",
+      "parent": "K054"
+    },
+    "K139": {
+      "type": "kategoria",
+      "name": "Citróny",
       "parent": "K054"
     },
     "K094": {
