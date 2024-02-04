@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "4. 2. 2024 16:29:00",
+  "updatedAt": "4. 2. 2024 16:30:20",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -360,7 +360,7 @@
     },
     "K099": {
       "type": "kategoria",
-      "name": "Hrušky",
+      "name": "Slivky",
       "parent": "K054"
     },
     "K100": {
