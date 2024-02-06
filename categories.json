@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "4. 2. 2024 17:16:01",
+  "updatedAt": "6. 2. 2024 08:52:42",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -743,11 +743,6 @@
       "name": "Oleje a Tuky",
       "parent": "K057"
     },
-    "K067": {
-      "type": "kategoria",
-      "name": "Zemiaky",
-      "parent": "K057"
-    },
     "K068": {
       "type": "kategoria",
       "name": "Koreniny",
@@ -831,6 +826,36 @@
     "K130": {
       "type": "kategoria",
       "name": "Kapusta",
+      "parent": "K055"
+    },
+    "B042": {
+      "type": "balenie",
+      "name": "500g",
+      "parent": "K055"
+    },
+    "B043": {
+      "type": "balenie",
+      "name": "1000g",
+      "parent": "K055"
+    },
+    "B044": {
+      "type": "balenie",
+      "name": "80g",
+      "parent": "K055"
+    },
+    "B045": {
+      "type": "balenie",
+      "name": "100g",
+      "parent": "K055"
+    },
+    "B046": {
+      "type": "balenie",
+      "name": "250g",
+      "parent": "K055"
+    },
+    "B047": {
+      "type": "balenie",
+      "name": "125g",
       "parent": "K055"
     },
     "K131": {
