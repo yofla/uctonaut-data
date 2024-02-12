@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "10. 2. 2024 07:59:10",
+  "updatedAt": "12. 2. 2024 16:15:30",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -98,6 +98,31 @@
       "name": "smotanový",
       "parent": "K004"
     },
+    "V049": {
+      "type": "vlastnost",
+      "name": "bezlaktózový",
+      "parent": "K004"
+    },
+    "V050": {
+      "type": "vlastnost",
+      "name": "čučuriedkový",
+      "parent": "K004"
+    },
+    "B001": {
+      "type": "balenie",
+      "parent": "K004",
+      "name": "150g"
+    },
+    "B013": {
+      "type": "balenie",
+      "parent": "K074",
+      "name": "90g"
+    },
+    "B047": {
+      "type": "balenie",
+      "parent": "K004",
+      "name": "145g"
+    },
     "K010": {
       "type": "kategoria",
       "name": "Maslo",
@@ -133,11 +158,6 @@
       "name": "Mliečny dezert",
       "parent": "K002"
     },
-    "B013": {
-      "type": "balenie",
-      "parent": "K004",
-      "name": "1Kg"
-    },
     "B014": {
       "type": "balenie",
       "parent": "K074",
@@ -172,11 +192,6 @@
       "type": "vlastnost",
       "parent": "K074",
       "name": "ľadová káva"
-    },
-    "B001": {
-      "type": "balenie",
-      "parent": "K004",
-      "name": "150g"
     },
     "B010": {
       "type": "balenie",
