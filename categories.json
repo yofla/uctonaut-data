@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "12. 2. 2024 16:15:30",
+  "updatedAt": "12. 2. 2024 16:17:27",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -104,6 +104,16 @@
       "parent": "K004"
     },
     "V050": {
+      "type": "vlastnost",
+      "name": "jahodový",
+      "parent": "K004"
+    },
+    "V051": {
+      "type": "vlastnost",
+      "name": "čokoládový",
+      "parent": "K004"
+    },
+    "V052": {
       "type": "vlastnost",
       "name": "čučuriedkový",
       "parent": "K004"
