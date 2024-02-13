@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "12. 2. 2024 16:57:12",
+  "updatedAt": "13. 2. 2024 19:03:04",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -887,6 +887,21 @@
       "type": "kategoria",
       "name": "Cereálie",
       "parent": "K001"
+    },
+    "K141": {
+      "type": "kategoria",
+      "name": "Sušené ovocie a orechy",
+      "parent": "K001"
+    },
+    "K142": {
+      "type": "kategoria",
+      "name": "Sušené hrozienka",
+      "parent": "K141"
+    },
+    "B048": {
+      "type": "balenie",
+      "name": "150g",
+      "parent": "K141"
     },
     "B002": {
       "type": "balenie",
