@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "14. 2. 2024 13:07:54",
+  "updatedAt": "14. 2. 2024 13:10:48",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -510,7 +510,7 @@
     },
     "B002": {
       "type": "balenie",
-      "parent": "K006",
+      "parent": "K005",
       "name": "1000g"
     },
     "B003": {
@@ -520,7 +520,7 @@
     },
     "B049": {
       "type": "balenie",
-      "parent": "K002",
+      "parent": "K005",
       "name": "500g"
     },
     "K006": {
