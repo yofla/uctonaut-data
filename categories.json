@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "14. 2. 2024 13:13:00",
+  "updatedAt": "14. 2. 2024 18:54:21",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1005,6 +1005,11 @@
     "K020": {
       "type": "kategoria",
       "name": "Kino, Divadlo, Koncerty",
+      "parent": "K013"
+    },
+    "K143": {
+      "type": "kategoria",
+      "name": "Športové potreby a šport",
       "parent": "K013"
     },
     "K021": {
