@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "13. 2. 2024 19:03:04",
+  "updatedAt": "14. 2. 2024 11:37:01",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -508,10 +508,65 @@
       "name": "Pečivo",
       "parent": "K001"
     },
+    "B002": {
+      "type": "balenie",
+      "parent": "K006",
+      "name": "1000g"
+    },
+    "B003": {
+      "type": "balenie",
+      "parent": "K007",
+      "name": "50g"
+    },
     "K006": {
       "type": "kategoria",
       "name": "Chlieb",
       "parent": "K005"
+    },
+    "V053": {
+      "type": "vlastnost",
+      "name": "sendvičový",
+      "parent": "K006"
+    },
+    "V054": {
+      "type": "vlastnost",
+      "name": "pšeničný",
+      "parent": "K006"
+    },
+    "V055": {
+      "type": "vlastnost",
+      "name": "ražný",
+      "parent": "K006"
+    },
+    "V056": {
+      "type": "vlastnost",
+      "name": "pšenično-ražný",
+      "parent": "K006"
+    },
+    "V057": {
+      "type": "vlastnost",
+      "name": "zemiakový",
+      "parent": "K006"
+    },
+    "V058": {
+      "type": "vlastnost",
+      "name": "svetlý",
+      "parent": "K006"
+    },
+    "V059": {
+      "type": "vlastnost",
+      "name": "tmavý",
+      "parent": "K006"
+    },
+    "V060": {
+      "type": "vlastnost",
+      "name": "celozrnný",
+      "parent": "K006"
+    },
+    "V061": {
+      "type": "vlastnost",
+      "name": "bezlepkový",
+      "parent": "K006"
     },
     "K007": {
       "type": "kategoria",
@@ -902,16 +957,6 @@
       "type": "balenie",
       "name": "150g",
       "parent": "K141"
-    },
-    "B002": {
-      "type": "balenie",
-      "parent": "K006",
-      "name": "1000g"
-    },
-    "B003": {
-      "type": "balenie",
-      "parent": "K007",
-      "name": "50g"
     },
     "B006": {
       "type": "balenie",
