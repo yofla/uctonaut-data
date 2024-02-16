@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "16. 2. 2024 06:58:58",
+  "updatedAt": "16. 2. 2024 09:07:36",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -716,6 +716,11 @@
     "K057": {
       "type": "kategoria",
       "name": "Základné potraviny",
+      "parent": "K001"
+    },
+    "K144": {
+      "type": "kategoria",
+      "name": "Soľ",
       "parent": "K001"
     },
     "K058": {
