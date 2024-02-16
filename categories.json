@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "16. 2. 2024 21:00:18",
+  "updatedAt": "16. 2. 2024 21:10:27",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -123,15 +123,25 @@
       "parent": "K004",
       "name": "150g"
     },
-    "B013": {
+    "B051": {
       "type": "balenie",
-      "parent": "K074",
-      "name": "90g"
+      "parent": "K004",
+      "name": "1Kg"
     },
     "B047": {
       "type": "balenie",
       "parent": "K004",
       "name": "145g"
+    },
+    "B052": {
+      "type": "balenie",
+      "parent": "K004",
+      "name": "500g"
+    },
+    "B053": {
+      "type": "balenie",
+      "parent": "K004",
+      "name": "750g"
     },
     "K010": {
       "type": "kategoria",
@@ -167,6 +177,11 @@
       "type": "kategoria",
       "name": "Mliečny dezert",
       "parent": "K002"
+    },
+    "B013": {
+      "type": "balenie",
+      "parent": "K074",
+      "name": "90g"
     },
     "B014": {
       "type": "balenie",
