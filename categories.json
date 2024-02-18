@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "18. 2. 2024 19:54:44",
+  "updatedAt": "18. 2. 2024 19:56:29",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -208,15 +208,15 @@
       "parent": "K074",
       "name": "125g"
     },
-    "B055": {
+    "B058": {
       "type": "balenie",
-      "parent": "K011",
-      "name": "100g"
+      "parent": "K074",
+      "name": "4x100g"
     },
-    "B056": {
+    "B059": {
       "type": "balenie",
-      "parent": "K011",
-      "name": "150g"
+      "parent": "K074",
+      "name": "8x100g"
     },
     "V021": {
       "type": "vlastnost",
@@ -242,6 +242,16 @@
       "type": "balenie",
       "parent": "K011",
       "name": "140g"
+    },
+    "B055": {
+      "type": "balenie",
+      "parent": "K011",
+      "name": "100g"
+    },
+    "B056": {
+      "type": "balenie",
+      "parent": "K011",
+      "name": "150g"
     },
     "K044": {
       "type": "kategoria",
