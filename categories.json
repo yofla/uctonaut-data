@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "16. 2. 2024 21:19:14",
+  "updatedAt": "18. 2. 2024 19:54:44",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -207,6 +207,16 @@
       "type": "balenie",
       "parent": "K074",
       "name": "125g"
+    },
+    "B055": {
+      "type": "balenie",
+      "parent": "K011",
+      "name": "100g"
+    },
+    "B056": {
+      "type": "balenie",
+      "parent": "K011",
+      "name": "150g"
     },
     "V021": {
       "type": "vlastnost",
@@ -1255,6 +1265,10 @@
     "Z017": {
       "type": "znacka",
       "name": "Happy Day"
+    },
+    "Z018": {
+      "type": "znacka",
+      "name": "Actimel"
     }
   }
 }
