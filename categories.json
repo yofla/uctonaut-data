@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "18. 2. 2024 20:07:00",
+  "updatedAt": "27. 2. 2024 00:20:38",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -685,7 +685,7 @@
     },
     "K056": {
       "type": "kategoria",
-      "name": "Studené, instatné a mrazené jedlá, konzervy, polotovary",
+      "name": "Jedlá a polotovary",
       "parent": "K001"
     },
     "K095": {
@@ -707,6 +707,21 @@
       "type": "balenie",
       "name": "140g",
       "parent": "K091"
+    },
+    "K146": {
+      "type": "kategoria",
+      "name": "Konzervy a spreje",
+      "parent": "K056"
+    },
+    "B061": {
+      "type": "kategoria",
+      "name": "250g",
+      "parent": "K056"
+    },
+    "K147": {
+      "type": "kategoria",
+      "name": "Šľahačka v spreji",
+      "parent": "K146"
     },
     "K043": {
       "type": "kategoria",
