@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "27. 2. 2024 00:20:38",
+  "updatedAt": "3. 4. 2024 09:07:16",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1299,6 +1299,21 @@
     "Z018": {
       "type": "znacka",
       "name": "Actimel"
+    },
+    "V062": {
+      "name": "jahodový",
+      "type": "vlastnost",
+      "parent": "K093"
+    },
+    "B062": {
+      "name": "340g",
+      "type": "balenie",
+      "parent": "K094"
+    },
+    "V063": {
+      "name": "malinový",
+      "type": "vlastnost",
+      "parent": "K093"
     }
   }
 }
