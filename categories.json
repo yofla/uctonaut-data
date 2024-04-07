@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "3. 4. 2024 09:07:16",
+  "updatedAt": "7. 4. 2024 23:35:47",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1314,6 +1314,36 @@
       "name": "malinový",
       "type": "vlastnost",
       "parent": "K093"
+    },
+    "B063": {
+      "name": "100g",
+      "type": "balenie",
+      "parent": "K042"
+    },
+    "B064": {
+      "name": "200g",
+      "type": "balenie",
+      "parent": "K042"
+    },
+    "K148": {
+      "name": "Tvaroh",
+      "type": "kategoria",
+      "parent": "K002"
+    },
+    "V064": {
+      "name": "ochutený",
+      "type": "vlastnost",
+      "parent": "K148"
+    },
+    "B065": {
+      "name": "200g",
+      "type": "balenie",
+      "parent": "K148"
+    },
+    "B066": {
+      "name": "hrudkovitý",
+      "type": "balenie",
+      "parent": "K148"
     }
   }
 }
