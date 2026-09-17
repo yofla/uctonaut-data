@@ -1,1319 +1,113 @@
 {
   "version": "1.0.0",
-  "updatedAt": "7. 4. 2024 23:35:47",
+  "updatedAt": "8. 10. 2024 17:44:47",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
     "K001": {
+      "name": "Potraviny",
       "type": "kategoria",
-      "name": "Potraviny"
+      "parent": ""
+    },
+    "Z029": {
+      "name": "Podravka",
+      "type": "znacka",
+      "parent": "K001"
     },
     "K069": {
-      "type": "kategoria",
       "name": "Hotové Jedlá (pripravené v obchode)",
+      "type": "kategoria",
       "parent": "K001"
     },
     "K042": {
-      "type": "kategoria",
       "name": "Mäso a výrobky z neho",
+      "type": "kategoria",
       "parent": "K001"
     },
-    "K132": {
-      "type": "kategoria",
-      "name": "šunka",
+    "B071": {
+      "name": "250g",
+      "type": "balenie",
       "parent": "K042"
     },
-    "K133": {
+    "K156": {
+      "name": "Hydina",
       "type": "kategoria",
+      "parent": "K042"
+    },
+    "K157": {
+      "name": "Morčacie mäso",
+      "type": "kategoria",
+      "parent": "K156"
+    },
+    "K158": {
+      "name": "Morčacie prsia",
+      "type": "kategoria",
+      "parent": "K157"
+    },
+    "K136": {
+      "name": "kuracie maso",
+      "type": "kategoria",
+      "parent": "K156"
+    },
+    "V071": {
+      "name": "vykostené",
+      "type": "vlastnost",
+      "parent": "K136"
+    },
+    "K161": {
+      "name": "Kuracie stehná",
+      "type": "kategoria",
+      "parent": "K136"
+    },
+    "K160": {
+      "name": "Kuracie prsia",
+      "type": "kategoria",
+      "parent": "K136"
+    },
+    "K159": {
+      "name": "Kuracie zadky",
+      "type": "kategoria",
+      "parent": "K136"
+    },
+    "K132": {
+      "name": "šunka",
+      "type": "kategoria",
+      "parent": "K042"
+    },
+    "V073": {
+      "name": "dusená",
+      "type": "vlastnost",
+      "parent": "K132"
+    },
+    "V072": {
+      "name": "kocky",
+      "type": "vlastnost",
+      "parent": "K132"
+    },
+    "K133": {
       "name": "saláma",
+      "type": "kategoria",
       "parent": "K042"
     },
     "K134": {
-      "type": "kategoria",
       "name": "slanina",
+      "type": "kategoria",
       "parent": "K042"
     },
     "K135": {
-      "type": "kategoria",
       "name": "párky",
-      "parent": "K042"
-    },
-    "K136": {
       "type": "kategoria",
-      "name": "kuracie maso",
       "parent": "K042"
     },
     "K137": {
-      "type": "kategoria",
       "name": "bravčové maso",
+      "type": "kategoria",
       "parent": "K042"
     },
     "K138": {
-      "type": "kategoria",
       "name": "hovädzie maso",
+      "type": "kategoria",
       "parent": "K042"
-    },
-    "K002": {
-      "type": "kategoria",
-      "name": "Mliečne výrobky",
-      "parent": "K001"
-    },
-    "K003": {
-      "type": "kategoria",
-      "name": "Mlieko",
-      "parent": "K002"
-    },
-    "V006": {
-      "type": "vlastnost",
-      "name": "Bezlaktózové",
-      "parent": "K003"
-    },
-    "V007": {
-      "type": "vlastnost",
-      "name": "Plnotučné 3.5%",
-      "parent": "K003"
-    },
-    "V008": {
-      "type": "vlastnost",
-      "name": "Polotučné 1.5%",
-      "parent": "K003"
-    },
-    "K004": {
-      "type": "kategoria",
-      "name": "Jogurt",
-      "parent": "K002"
-    },
-    "V001": {
-      "type": "vlastnost",
-      "name": "biely",
-      "parent": "K004"
-    },
-    "V002": {
-      "type": "vlastnost",
-      "name": "ochutený",
-      "parent": "K004"
-    },
-    "V003": {
-      "type": "vlastnost",
-      "name": "smotanový",
-      "parent": "K004"
-    },
-    "V049": {
-      "type": "vlastnost",
-      "name": "bezlaktózový",
-      "parent": "K004"
-    },
-    "V050": {
-      "type": "vlastnost",
-      "name": "jahodový",
-      "parent": "K004"
-    },
-    "V051": {
-      "type": "vlastnost",
-      "name": "čokoládový",
-      "parent": "K004"
-    },
-    "V052": {
-      "type": "vlastnost",
-      "name": "čučuriedkový",
-      "parent": "K004"
-    },
-    "B001": {
-      "type": "balenie",
-      "parent": "K004",
-      "name": "150g"
-    },
-    "B051": {
-      "type": "balenie",
-      "parent": "K004",
-      "name": "1Kg"
-    },
-    "B047": {
-      "type": "balenie",
-      "parent": "K004",
-      "name": "145g"
-    },
-    "B052": {
-      "type": "balenie",
-      "parent": "K004",
-      "name": "500g"
-    },
-    "B053": {
-      "type": "balenie",
-      "parent": "K004",
-      "name": "750g"
-    },
-    "K010": {
-      "type": "kategoria",
-      "name": "Maslo",
-      "parent": "K002"
-    },
-    "B030": {
-      "type": "balenie",
-      "name": "250g",
-      "parent": "K010"
-    },
-    "B031": {
-      "type": "balenie",
-      "name": "200g",
-      "parent": "K010"
-    },
-    "B032": {
-      "type": "balenie",
-      "name": "125g",
-      "parent": "K010"
-    },
-    "K011": {
-      "type": "kategoria",
-      "name": "Syr",
-      "parent": "K002"
-    },
-    "K012": {
-      "type": "kategoria",
-      "name": "Nátierka",
-      "parent": "K002"
-    },
-    "K074": {
-      "type": "kategoria",
-      "name": "Mliečny dezert",
-      "parent": "K002"
-    },
-    "B013": {
-      "type": "balenie",
-      "parent": "K074",
-      "name": "90g"
-    },
-    "B014": {
-      "type": "balenie",
-      "parent": "K074",
-      "name": "80g"
-    },
-    "B033": {
-      "type": "balenie",
-      "name": "1l",
-      "parent": "K046"
-    },
-    "B019": {
-      "type": "balenie",
-      "parent": "K074",
-      "name": "250ml"
-    },
-    "B023": {
-      "type": "balenie",
-      "parent": "K074",
-      "name": "400ml"
-    },
-    "B054": {
-      "type": "balenie",
-      "parent": "K074",
-      "name": "125g"
-    },
-    "B058": {
-      "type": "balenie",
-      "parent": "K074",
-      "name": "4x100g"
-    },
-    "B059": {
-      "type": "balenie",
-      "parent": "K074",
-      "name": "8x100g"
-    },
-    "B060": {
-      "type": "balenie",
-      "parent": "K074",
-      "name": "130g"
-    },
-    "V021": {
-      "type": "vlastnost",
-      "parent": "K074",
-      "name": "čokoládový"
-    },
-    "V022": {
-      "type": "vlastnost",
-      "parent": "K074",
-      "name": "vanilkový"
-    },
-    "V026": {
-      "type": "vlastnost",
-      "parent": "K074",
-      "name": "ľadová káva"
-    },
-    "B010": {
-      "type": "balenie",
-      "parent": "K003",
-      "name": "1 liter"
-    },
-    "B015": {
-      "type": "balenie",
-      "parent": "K011",
-      "name": "140g"
-    },
-    "B055": {
-      "type": "balenie",
-      "parent": "K011",
-      "name": "100g"
-    },
-    "B056": {
-      "type": "balenie",
-      "parent": "K011",
-      "name": "150g"
-    },
-    "K044": {
-      "type": "kategoria",
-      "name": "Nápoje",
-      "parent": "K001"
-    },
-    "K045": {
-      "type": "kategoria",
-      "name": "Alkoholické nápoje",
-      "parent": "K044"
-    },
-    "K046": {
-      "type": "kategoria",
-      "name": "Nealko nápoje",
-      "parent": "K044"
-    },
-    "K047": {
-      "type": "kategoria",
-      "name": "Sladené nápoje",
-      "parent": "K046"
-    },
-    "K048": {
-      "type": "kategoria",
-      "name": "Balené vody",
-      "parent": "K046"
-    },
-    "V040": {
-      "type": "vlastnost",
-      "name": "neperlivá",
-      "parent": "K048"
-    },
-    "V041": {
-      "type": "vlastnost",
-      "name": "jemne perlivá",
-      "parent": "K048"
-    },
-    "V042": {
-      "type": "vlastnost",
-      "name": "perlivá",
-      "parent": "K048"
-    },
-    "K049": {
-      "type": "kategoria",
-      "name": "Džúsy",
-      "parent": "K046"
-    },
-    "V032": {
-      "type": "vlastnost",
-      "name": "Pomarančový",
-      "parent": "K049"
-    },
-    "V033": {
-      "type": "vlastnost",
-      "name": "Jablkový",
-      "parent": "K049"
-    },
-    "V034": {
-      "type": "vlastnost",
-      "name": "Hruškový",
-      "parent": "K049"
-    },
-    "V035": {
-      "type": "vlastnost",
-      "name": "Multivitamín",
-      "parent": "K049"
-    },
-    "V036": {
-      "type": "vlastnost",
-      "name": "Grepový",
-      "parent": "K049"
-    },
-    "V037": {
-      "type": "vlastnost",
-      "name": "100%",
-      "parent": "K049"
-    },
-    "V038": {
-      "type": "vlastnost",
-      "name": "z koncentrátu",
-      "parent": "K049"
-    },
-    "V039": {
-      "type": "vlastnost",
-      "name": "za studena listovaný",
-      "parent": "K049"
-    },
-    "B034": {
-      "type": "balenie",
-      "name": "0.75l",
-      "parent": "K046"
-    },
-    "B035": {
-      "type": "balenie",
-      "name": "0.5l",
-      "parent": "K046"
-    },
-    "B036": {
-      "type": "balenie",
-      "name": "1.5l",
-      "parent": "K046"
-    },
-    "B037": {
-      "type": "balenie",
-      "name": "6*1.5l",
-      "parent": "K046"
-    },
-    "B038": {
-      "type": "balenie",
-      "name": "2l",
-      "parent": "K046"
-    },
-    "B039": {
-      "type": "balenie",
-      "name": "2.5l",
-      "parent": "K046"
-    },
-    "K082": {
-      "type": "kategoria",
-      "name": "záloha za obal",
-      "parent": "K044"
-    },
-    "K053": {
-      "type": "kategoria",
-      "name": "Omáčky",
-      "parent": "K001"
-    },
-    "K083": {
-      "type": "kategoria",
-      "name": "Kečup",
-      "parent": "K053"
-    },
-    "K084": {
-      "type": "kategoria",
-      "name": "Horčica",
-      "parent": "K053"
-    },
-    "K085": {
-      "type": "kategoria",
-      "name": "Tatárska omáčka",
-      "parent": "K053"
-    },
-    "K086": {
-      "type": "kategoria",
-      "name": "Thajská omáčka",
-      "parent": "K053"
-    },
-    "K087": {
-      "type": "kategoria",
-      "name": "Sójová omáčka",
-      "parent": "K053"
-    },
-    "K054": {
-      "type": "kategoria",
-      "name": "Ovocie",
-      "parent": "K001"
-    },
-    "K096": {
-      "type": "kategoria",
-      "name": "Jablká",
-      "parent": "K054"
-    },
-    "K097": {
-      "type": "kategoria",
-      "name": "Banány",
-      "parent": "K054"
-    },
-    "K098": {
-      "type": "kategoria",
-      "name": "Čučoriedky",
-      "parent": "K054"
-    },
-    "K099": {
-      "type": "kategoria",
-      "name": "Slivky",
-      "parent": "K054"
-    },
-    "K100": {
-      "type": "kategoria",
-      "name": "Hrušky",
-      "parent": "K054"
-    },
-    "K101": {
-      "type": "kategoria",
-      "name": "Pomaranče",
-      "parent": "K054"
-    },
-    "K102": {
-      "type": "kategoria",
-      "name": "Kiwis",
-      "parent": "K054"
-    },
-    "K103": {
-      "type": "kategoria",
-      "name": "Mangá",
-      "parent": "K054"
-    },
-    "K104": {
-      "type": "kategoria",
-      "name": "Hrozno",
-      "parent": "K054"
-    },
-    "K105": {
-      "type": "kategoria",
-      "name": "Melóny",
-      "parent": "K054"
-    },
-    "K106": {
-      "type": "kategoria",
-      "name": "Ananásy",
-      "parent": "K054"
-    },
-    "K107": {
-      "type": "kategoria",
-      "name": "Jahody",
-      "parent": "K054"
-    },
-    "K108": {
-      "type": "kategoria",
-      "name": "Maliny",
-      "parent": "K054"
-    },
-    "K109": {
-      "type": "kategoria",
-      "name": "Čerešne",
-      "parent": "K054"
-    },
-    "K110": {
-      "type": "kategoria",
-      "name": "Broskyne",
-      "parent": "K054"
-    },
-    "K111": {
-      "type": "kategoria",
-      "name": "Nektarinky",
-      "parent": "K054"
-    },
-    "K112": {
-      "type": "kategoria",
-      "name": "Papája",
-      "parent": "K054"
-    },
-    "K113": {
-      "type": "kategoria",
-      "name": "Figy",
-      "parent": "K054"
-    },
-    "K114": {
-      "type": "kategoria",
-      "name": "Granátové jablká",
-      "parent": "K054"
-    },
-    "K115": {
-      "type": "kategoria",
-      "name": "Avokádo",
-      "parent": "K054"
-    },
-    "K139": {
-      "type": "kategoria",
-      "name": "Citróny",
-      "parent": "K054"
-    },
-    "K094": {
-      "type": "kategoria",
-      "parent": "K001",
-      "name": "Med, Džem"
-    },
-    "B017": {
-      "type": "balenie",
-      "parent": "K094",
-      "name": "1Kg"
-    },
-    "B018": {
-      "type": "balenie",
-      "parent": "K094",
-      "name": "250g"
-    },
-    "K092": {
-      "type": "kategoria",
-      "parent": "K094",
-      "name": "Med"
-    },
-    "V020": {
-      "type": "vlastnost",
-      "parent": "K092",
-      "name": "kvetový"
-    },
-    "K093": {
-      "type": "kategoria",
-      "parent": "K094",
-      "name": "Džem"
-    },
-    "K005": {
-      "type": "kategoria",
-      "name": "Pečivo",
-      "parent": "K001"
-    },
-    "B002": {
-      "type": "balenie",
-      "parent": "K005",
-      "name": "1000g"
-    },
-    "B003": {
-      "type": "balenie",
-      "parent": "K007",
-      "name": "50g"
-    },
-    "B049": {
-      "type": "balenie",
-      "parent": "K005",
-      "name": "500g"
-    },
-    "B050": {
-      "type": "balenie",
-      "parent": "K005",
-      "name": "750g"
-    },
-    "K006": {
-      "type": "kategoria",
-      "name": "Chlieb",
-      "parent": "K005"
-    },
-    "V053": {
-      "type": "vlastnost",
-      "name": "sendvičový",
-      "parent": "K006"
-    },
-    "V054": {
-      "type": "vlastnost",
-      "name": "pšeničný",
-      "parent": "K006"
-    },
-    "V055": {
-      "type": "vlastnost",
-      "name": "ražný",
-      "parent": "K006"
-    },
-    "V056": {
-      "type": "vlastnost",
-      "name": "pšenično-ražný",
-      "parent": "K006"
-    },
-    "V057": {
-      "type": "vlastnost",
-      "name": "zemiakový",
-      "parent": "K006"
-    },
-    "V058": {
-      "type": "vlastnost",
-      "name": "svetlý",
-      "parent": "K006"
-    },
-    "V059": {
-      "type": "vlastnost",
-      "name": "tmavý",
-      "parent": "K006"
-    },
-    "V060": {
-      "type": "vlastnost",
-      "name": "celozrnný",
-      "parent": "K006"
-    },
-    "V061": {
-      "type": "vlastnost",
-      "name": "bezlepkový",
-      "parent": "K006"
-    },
-    "K007": {
-      "type": "kategoria",
-      "name": "Rožky",
-      "parent": "K005"
-    },
-    "K008": {
-      "type": "kategoria",
-      "name": "Sladké pečivo",
-      "parent": "K005"
-    },
-    "K009": {
-      "type": "kategoria",
-      "name": "Ostatné pečivo",
-      "parent": "K005"
-    },
-    "K050": {
-      "type": "kategoria",
-      "name": "Pochutiny",
-      "parent": "K001"
-    },
-    "K051": {
-      "type": "kategoria",
-      "name": "Slané pochutiny",
-      "parent": "K050"
-    },
-    "K052": {
-      "type": "kategoria",
-      "name": "Sladkosti",
-      "parent": "K050"
-    },
-    "B008": {
-      "type": "balenie",
-      "parent": "K052",
-      "name": "80g"
-    },
-    "B029": {
-      "type": "balenie",
-      "parent": "K052",
-      "name": "270g"
-    },
-    "V009": {
-      "type": "vlastnost",
-      "name": "Exkluziv 38%",
-      "parent": "K091"
-    },
-    "Z013": {
-      "type": "znacka",
-      "parent": "K052",
-      "name": "Milka"
-    },
-    "Z014": {
-      "type": "znacka",
-      "parent": "K052",
-      "name": "Figaro"
-    },
-    "Z015": {
-      "type": "znacka",
-      "parent": "K052",
-      "name": "Snickers"
-    },
-    "K056": {
-      "type": "kategoria",
-      "name": "Jedlá a polotovary",
-      "parent": "K001"
-    },
-    "K095": {
-      "type": "kategoria",
-      "name": "Bagety, sendviče",
-      "parent": "K056"
-    },
-    "K090": {
-      "type": "kategoria",
-      "name": "Majonézové šaláty",
-      "parent": "K056"
-    },
-    "K091": {
-      "type": "kategoria",
-      "name": "Treska",
-      "parent": "K090"
-    },
-    "B016": {
-      "type": "balenie",
-      "name": "140g",
-      "parent": "K091"
-    },
-    "K146": {
-      "type": "kategoria",
-      "name": "Konzervy a spreje",
-      "parent": "K056"
-    },
-    "B061": {
-      "type": "kategoria",
-      "name": "250g",
-      "parent": "K056"
-    },
-    "K147": {
-      "type": "kategoria",
-      "name": "Šľahačka v spreji",
-      "parent": "K146"
-    },
-    "K043": {
-      "type": "kategoria",
-      "name": "Ryby a výrobky z nich",
-      "parent": "K001"
-    },
-    "K140": {
-      "type": "kategoria",
-      "name": "Rybie konzervy",
-      "parent": "K043"
-    },
-    "V043": {
-      "type": "vlastnost",
-      "name": "tuniak",
-      "parent": "K140"
-    },
-    "V044": {
-      "type": "vlastnost",
-      "name": "sleď",
-      "parent": "K140"
-    },
-    "V045": {
-      "type": "vlastnost",
-      "name": "v oleji olivovom",
-      "parent": "K140"
-    },
-    "V046": {
-      "type": "vlastnost",
-      "name": "v oleji slnečnicovom",
-      "parent": "K140"
-    },
-    "V047": {
-      "type": "vlastnost",
-      "name": "vo vlastnej šťave",
-      "parent": "K140"
-    },
-    "V048": {
-      "type": "vlastnost",
-      "name": "vo paradajkovej šťave",
-      "parent": "K140"
-    },
-    "B040": {
-      "type": "balenie",
-      "name": "80g",
-      "parent": "K140"
-    },
-    "B041": {
-      "type": "balenie",
-      "name": "3x80g",
-      "parent": "K140"
-    },
-    "K057": {
-      "type": "kategoria",
-      "name": "Základné potraviny",
-      "parent": "K001"
-    },
-    "K144": {
-      "type": "kategoria",
-      "name": "Soľ",
-      "parent": "K001"
-    },
-    "K058": {
-      "type": "kategoria",
-      "name": "Múka",
-      "parent": "K057"
-    },
-    "K145": {
-      "type": "kategoria",
-      "name": "Krupica",
-      "parent": "K057"
-    },
-    "B028": {
-      "type": "balenie",
-      "name": "1kg",
-      "parent": "K058"
-    },
-    "V028": {
-      "type": "vlastnost",
-      "name": "hladká",
-      "parent": "K058"
-    },
-    "V029": {
-      "type": "vlastnost",
-      "name": "polohrubá",
-      "parent": "K058"
-    },
-    "V030": {
-      "type": "vlastnost",
-      "name": "hrubá",
-      "parent": "K058"
-    },
-    "V031": {
-      "type": "vlastnost",
-      "name": "extra špeciál",
-      "parent": "K058"
-    },
-    "K059": {
-      "type": "kategoria",
-      "name": "Čaj",
-      "parent": "K057"
-    },
-    "K060": {
-      "type": "kategoria",
-      "name": "Káva",
-      "parent": "K057"
-    },
-    "V027": {
-      "type": "vlastnost",
-      "name": "instantná",
-      "parent": "K060"
-    },
-    "B027": {
-      "type": "balenie",
-      "name": "200g",
-      "parent": "K060"
-    },
-    "Z012": {
-      "type": "znacka",
-      "name": "Jacobs Velvet",
-      "parent": "K060"
-    },
-    "K061": {
-      "type": "kategoria",
-      "name": "Cukor",
-      "parent": "K057"
-    },
-    "K062": {
-      "type": "kategoria",
-      "name": "Ryža",
-      "parent": "K057"
-    },
-    "K063": {
-      "type": "kategoria",
-      "name": "Strukoviny",
-      "parent": "K057"
-    },
-    "K064": {
-      "type": "kategoria",
-      "name": "Cestoviny",
-      "parent": "K057"
-    },
-    "K065": {
-      "type": "kategoria",
-      "name": "Vajcia",
-      "parent": "K057"
-    },
-    "B024": {
-      "type": "balenie",
-      "name": "10ks",
-      "parent": "K065"
-    },
-    "B025": {
-      "type": "balenie",
-      "name": "12ks",
-      "parent": "K065"
-    },
-    "B026": {
-      "type": "balenie",
-      "name": "6ks",
-      "parent": "K065"
-    },
-    "V023": {
-      "type": "vlastnost",
-      "name": "klietkový chov",
-      "parent": "K065"
-    },
-    "V024": {
-      "type": "vlastnost",
-      "name": "podstieľkový chov",
-      "parent": "K065"
-    },
-    "V025": {
-      "type": "vlastnost",
-      "name": "voľný výbeh",
-      "parent": "K065"
-    },
-    "K066": {
-      "type": "kategoria",
-      "name": "Oleje a Tuky",
-      "parent": "K057"
-    },
-    "K068": {
-      "type": "kategoria",
-      "name": "Koreniny",
-      "parent": "K057"
-    },
-    "K055": {
-      "type": "kategoria",
-      "name": "Zelenina",
-      "parent": "K001"
-    },
-    "K116": {
-      "type": "kategoria",
-      "name": "Mrkva",
-      "parent": "K055"
-    },
-    "K117": {
-      "type": "kategoria",
-      "name": "Zemiaky",
-      "parent": "K055"
-    },
-    "K118": {
-      "type": "kategoria",
-      "name": "Brokolica",
-      "parent": "K055"
-    },
-    "K119": {
-      "type": "kategoria",
-      "name": "Cvikla",
-      "parent": "K055"
-    },
-    "K120": {
-      "type": "kategoria",
-      "name": "Cibula",
-      "parent": "K055"
-    },
-    "K121": {
-      "type": "kategoria",
-      "name": "Červená paprika",
-      "parent": "K055"
-    },
-    "K122": {
-      "type": "kategoria",
-      "name": "Paradajky",
-      "parent": "K055"
-    },
-    "K123": {
-      "type": "kategoria",
-      "name": "Uhorky",
-      "parent": "K055"
-    },
-    "K124": {
-      "type": "kategoria",
-      "name": "Špenát",
-      "parent": "K055"
-    },
-    "K125": {
-      "type": "kategoria",
-      "name": "Salát",
-      "parent": "K055"
-    },
-    "K126": {
-      "type": "kategoria",
-      "name": "Cesnak",
-      "parent": "K055"
-    },
-    "K127": {
-      "type": "kategoria",
-      "name": "Kukurica",
-      "parent": "K055"
-    },
-    "K128": {
-      "type": "kategoria",
-      "name": "Fazuľa",
-      "parent": "K055"
-    },
-    "K129": {
-      "type": "kategoria",
-      "name": "Hrášok",
-      "parent": "K055"
-    },
-    "K130": {
-      "type": "kategoria",
-      "name": "Kapusta",
-      "parent": "K055"
-    },
-    "B042": {
-      "type": "balenie",
-      "name": "500g",
-      "parent": "K055"
-    },
-    "B043": {
-      "type": "balenie",
-      "name": "1000g",
-      "parent": "K055"
-    },
-    "B044": {
-      "type": "balenie",
-      "name": "80g",
-      "parent": "K055"
-    },
-    "B045": {
-      "type": "balenie",
-      "name": "100g",
-      "parent": "K055"
-    },
-    "B046": {
-      "type": "balenie",
-      "name": "250g",
-      "parent": "K055"
-    },
-    "B007": {
-      "type": "balenie",
-      "parent": "K055",
-      "name": "125g"
-    },
-    "K131": {
-      "type": "kategoria",
-      "name": "Cereálie",
-      "parent": "K001"
-    },
-    "K141": {
-      "type": "kategoria",
-      "name": "Sušené ovocie a orechy",
-      "parent": "K001"
-    },
-    "K142": {
-      "type": "kategoria",
-      "name": "Sušené hrozienka",
-      "parent": "K141"
-    },
-    "B048": {
-      "type": "balenie",
-      "name": "150g",
-      "parent": "K141"
-    },
-    "B006": {
-      "type": "balenie",
-      "parent": "K054",
-      "name": "125g"
-    },
-    "K013": {
-      "type": "kategoria",
-      "name": "Zábava a Relax"
-    },
-    "K014": {
-      "type": "kategoria",
-      "name": "Káva",
-      "parent": "K013"
-    },
-    "K015": {
-      "type": "kategoria",
-      "name": "Víno",
-      "parent": "K013"
-    },
-    "K016": {
-      "type": "kategoria",
-      "name": "Pivo",
-      "parent": "K013"
-    },
-    "K017": {
-      "type": "kategoria",
-      "name": "Noviny a časopisy",
-      "parent": "K013"
-    },
-    "K018": {
-      "type": "kategoria",
-      "name": "Tabakové výrobky",
-      "parent": "K013"
-    },
-    "K019": {
-      "type": "kategoria",
-      "name": "Dovolenky",
-      "parent": "K013"
-    },
-    "K020": {
-      "type": "kategoria",
-      "name": "Kino, Divadlo, Koncerty",
-      "parent": "K013"
-    },
-    "K143": {
-      "type": "kategoria",
-      "name": "Športové potreby a šport",
-      "parent": "K013"
-    },
-    "K021": {
-      "type": "kategoria",
-      "name": "Stravovanie vonku"
-    },
-    "K022": {
-      "type": "kategoria",
-      "name": "McDonalds",
-      "parent": "K021"
-    },
-    "K023": {
-      "type": "kategoria",
-      "name": "Sakura Nitra",
-      "parent": "K021"
-    },
-    "K024": {
-      "type": "kategoria",
-      "name": "Oblečenie a obuv"
-    },
-    "K025": {
-      "type": "kategoria",
-      "name": "Oblečenie",
-      "parent": "K024"
-    },
-    "K026": {
-      "type": "kategoria",
-      "name": "Obuv",
-      "parent": "K024"
-    },
-    "K027": {
-      "type": "kategoria",
-      "name": "Ostatné",
-      "parent": "K024"
-    },
-    "K028": {
-      "type": "kategoria",
-      "name": "Doprava a Cestovanie"
-    },
-    "K029": {
-      "type": "kategoria",
-      "name": "Domácnosť, Záhrada"
-    },
-    "K030": {
-      "type": "kategoria",
-      "name": "Kancelárske potreby",
-      "parent": "K029"
-    },
-    "K031": {
-      "type": "kategoria",
-      "name": "Drogéria",
-      "parent": "K029"
-    },
-    "K070": {
-      "type": "kategoria",
-      "name": "Šampón",
-      "parent": "K031"
-    },
-    "K071": {
-      "type": "kategoria",
-      "name": "Toaletný papier",
-      "parent": "K031"
-    },
-    "V004": {
-      "type": "vlastnost",
-      "name": "2-vrstvový",
-      "parent": "K071"
-    },
-    "V005": {
-      "type": "vlastnost",
-      "name": "3-vrstvový",
-      "parent": "K071"
-    },
-    "B004": {
-      "type": "balenie",
-      "parent": "K070",
-      "name": "750ml"
-    },
-    "B005": {
-      "type": "balenie",
-      "parent": "K070",
-      "name": "400ml"
-    },
-    "B011": {
-      "type": "balenie",
-      "parent": "K071",
-      "name": "8 roliek"
-    },
-    "B012": {
-      "type": "balenie",
-      "parent": "K071",
-      "name": "4 rolky"
-    },
-    "K040": {
-      "type": "kategoria",
-      "name": "Domáce zvieratá",
-      "parent": "K029"
-    },
-    "K032": {
-      "type": "kategoria",
-      "name": "Lieky, Ošetrenia, Zdravie"
-    },
-    "K033": {
-      "type": "kategoria",
-      "name": "Auto"
-    },
-    "K034": {
-      "type": "kategoria",
-      "name": "Pohonné hmoty",
-      "parent": "K033"
-    },
-    "K072": {
-      "type": "kategoria",
-      "name": "Nafta",
-      "parent": "K034"
-    },
-    "K073": {
-      "type": "kategoria",
-      "name": "Benzín",
-      "parent": "K034"
-    },
-    "K035": {
-      "type": "kategoria",
-      "name": "Opravy, Náhradné diely, Údržba",
-      "parent": "K033"
-    },
-    "K036": {
-      "type": "kategoria",
-      "name": "Poistenie a služby",
-      "parent": "K033"
-    },
-    "K037": {
-      "type": "kategoria",
-      "name": "Rodina"
-    },
-    "K038": {
-      "type": "kategoria",
-      "name": "Škola, Škôlka, Strava, Krúžky",
-      "parent": "K037"
-    },
-    "K039": {
-      "type": "kategoria",
-      "name": "Darčeky, Oslavy",
-      "parent": "K037"
-    },
-    "K088": {
-      "type": "kategoria",
-      "name": "Hračky",
-      "parent": "K037"
-    },
-    "K089": {
-      "type": "kategoria",
-      "name": "Kurzy a vzdelávanie, ich pomôcky",
-      "parent": "K037"
-    },
-    "K041": {
-      "type": "kategoria",
-      "name": "Ostatné, Nezaradené"
-    },
-    "Z001": {
-      "type": "znacka",
-      "name": "Rajo"
-    },
-    "Z002": {
-      "type": "znacka",
-      "name": "Topec"
-    },
-    "Z003": {
-      "type": "znacka",
-      "name": "Schauma"
-    },
-    "Z004": {
-      "type": "znacka",
-      "name": "Fa"
-    },
-    "Z005": {
-      "type": "znacka",
-      "name": "Evo"
-    },
-    "Z006": {
-      "type": "znacka",
-      "name": "Fornetti"
-    },
-    "Z007": {
-      "type": "znacka",
-      "name": "Coca Cola"
-    },
-    "Z008": {
-      "type": "znacka",
-      "name": "Coop"
-    },
-    "Z009": {
-      "type": "znacka",
-      "name": "Relax"
-    },
-    "Z010": {
-      "type": "znacka",
-      "name": "Lúčina"
-    },
-    "Z011": {
-      "type": "znacka",
-      "name": "Mullermilch"
-    },
-    "Z016": {
-      "type": "znacka",
-      "name": "Pribináčik"
-    },
-    "Z017": {
-      "type": "znacka",
-      "name": "Happy Day"
-    },
-    "Z018": {
-      "type": "znacka",
-      "name": "Actimel"
-    },
-    "V062": {
-      "name": "jahodový",
-      "type": "vlastnost",
-      "parent": "K093"
-    },
-    "B062": {
-      "name": "340g",
-      "type": "balenie",
-      "parent": "K094"
-    },
-    "V063": {
-      "name": "malinový",
-      "type": "vlastnost",
-      "parent": "K093"
     },
     "B063": {
       "name": "100g",
@@ -1324,6 +118,266 @@
       "name": "200g",
       "type": "balenie",
       "parent": "K042"
+    },
+    "K002": {
+      "name": "Mliečne výrobky",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "K003": {
+      "name": "Mlieko",
+      "type": "kategoria",
+      "parent": "K002"
+    },
+    "V006": {
+      "name": "Bezlaktózové",
+      "type": "vlastnost",
+      "parent": "K003"
+    },
+    "V007": {
+      "name": "Plnotučné 3.5%",
+      "type": "vlastnost",
+      "parent": "K003"
+    },
+    "V008": {
+      "name": "Polotučné 1.5%",
+      "type": "vlastnost",
+      "parent": "K003"
+    },
+    "B010": {
+      "name": "1 liter",
+      "type": "balenie",
+      "parent": "K003"
+    },
+    "K004": {
+      "name": "Jogurt",
+      "type": "kategoria",
+      "parent": "K002"
+    },
+    "V001": {
+      "name": "biely",
+      "type": "vlastnost",
+      "parent": "K004"
+    },
+    "V002": {
+      "name": "ochutený",
+      "type": "vlastnost",
+      "parent": "K004"
+    },
+    "V003": {
+      "name": "smotanový",
+      "type": "vlastnost",
+      "parent": "K004"
+    },
+    "V049": {
+      "name": "bezlaktózový",
+      "type": "vlastnost",
+      "parent": "K004"
+    },
+    "V050": {
+      "name": "jahodový",
+      "type": "vlastnost",
+      "parent": "K004"
+    },
+    "V051": {
+      "name": "čokoládový",
+      "type": "vlastnost",
+      "parent": "K004"
+    },
+    "V052": {
+      "name": "čučuriedkový",
+      "type": "vlastnost",
+      "parent": "K004"
+    },
+    "B001": {
+      "name": "150g",
+      "type": "balenie",
+      "parent": "K004"
+    },
+    "B051": {
+      "name": "1Kg",
+      "type": "balenie",
+      "parent": "K004"
+    },
+    "B047": {
+      "name": "145g",
+      "type": "balenie",
+      "parent": "K004"
+    },
+    "B052": {
+      "name": "500g",
+      "type": "balenie",
+      "parent": "K004"
+    },
+    "B053": {
+      "name": "750g",
+      "type": "balenie",
+      "parent": "K004"
+    },
+    "K010": {
+      "name": "Maslo",
+      "type": "kategoria",
+      "parent": "K002"
+    },
+    "B030": {
+      "name": "250g",
+      "type": "balenie",
+      "parent": "K010"
+    },
+    "B031": {
+      "name": "200g",
+      "type": "balenie",
+      "parent": "K010"
+    },
+    "B032": {
+      "name": "125g",
+      "type": "balenie",
+      "parent": "K010"
+    },
+    "K011": {
+      "name": "Syr",
+      "type": "kategoria",
+      "parent": "K002"
+    },
+    "V077": {
+      "name": "plesnivý",
+      "type": "vlastnost",
+      "parent": "K011"
+    },
+    "Z028": {
+      "name": "Plesnivec",
+      "type": "znacka",
+      "parent": "K011"
+    },
+    "B075": {
+      "name": "80g",
+      "type": "balenie",
+      "parent": "K011"
+    },
+    "B073": {
+      "name": "170g",
+      "type": "balenie",
+      "parent": "K011"
+    },
+    "Z026": {
+      "name": "Leerdammer",
+      "type": "znacka",
+      "parent": "K011"
+    },
+    "V076": {
+      "name": "strúhaný",
+      "type": "vlastnost",
+      "parent": "K011"
+    },
+    "V075": {
+      "name": "plátky",
+      "type": "vlastnost",
+      "parent": "K011"
+    },
+    "V074": {
+      "name": "v celku",
+      "type": "vlastnost",
+      "parent": "K011"
+    },
+    "B072": {
+      "name": "250g",
+      "type": "balenie",
+      "parent": "K011"
+    },
+    "Z025": {
+      "name": "Parmezán",
+      "type": "znacka",
+      "parent": "K011"
+    },
+    "B015": {
+      "name": "140g",
+      "type": "balenie",
+      "parent": "K011"
+    },
+    "B055": {
+      "name": "100g",
+      "type": "balenie",
+      "parent": "K011"
+    },
+    "B056": {
+      "name": "150g",
+      "type": "balenie",
+      "parent": "K011"
+    },
+    "K012": {
+      "name": "Nátierka",
+      "type": "kategoria",
+      "parent": "K002"
+    },
+    "B074": {
+      "name": "120g",
+      "type": "balenie",
+      "parent": "K012"
+    },
+    "Z027": {
+      "name": "Lúčina",
+      "type": "znacka",
+      "parent": "K012"
+    },
+    "K074": {
+      "name": "Mliečny dezert",
+      "type": "kategoria",
+      "parent": "K002"
+    },
+    "B013": {
+      "name": "90g",
+      "type": "balenie",
+      "parent": "K074"
+    },
+    "B014": {
+      "name": "80g",
+      "type": "balenie",
+      "parent": "K074"
+    },
+    "B019": {
+      "name": "250ml",
+      "type": "balenie",
+      "parent": "K074"
+    },
+    "B023": {
+      "name": "400ml",
+      "type": "balenie",
+      "parent": "K074"
+    },
+    "B054": {
+      "name": "125g",
+      "type": "balenie",
+      "parent": "K074"
+    },
+    "B058": {
+      "name": "4x100g",
+      "type": "balenie",
+      "parent": "K074"
+    },
+    "B059": {
+      "name": "8x100g",
+      "type": "balenie",
+      "parent": "K074"
+    },
+    "B060": {
+      "name": "130g",
+      "type": "balenie",
+      "parent": "K074"
+    },
+    "V021": {
+      "name": "čokoládový",
+      "type": "vlastnost",
+      "parent": "K074"
+    },
+    "V022": {
+      "name": "vanilkový",
+      "type": "vlastnost",
+      "parent": "K074"
+    },
+    "V026": {
+      "name": "ľadová káva",
+      "type": "vlastnost",
+      "parent": "K074"
     },
     "K148": {
       "name": "Tvaroh",
@@ -1344,6 +398,1256 @@
       "name": "hrudkovitý",
       "type": "balenie",
       "parent": "K148"
+    },
+    "K044": {
+      "name": "Nápoje",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "K045": {
+      "name": "Alkoholické nápoje",
+      "type": "kategoria",
+      "parent": "K044"
+    },
+    "K046": {
+      "name": "Nealko nápoje",
+      "type": "kategoria",
+      "parent": "K044"
+    },
+    "Z024": {
+      "name": "Magnézia",
+      "type": "znacka",
+      "parent": "K046"
+    },
+    "Z022": {
+      "name": "Sprite",
+      "type": "znacka",
+      "parent": "K046"
+    },
+    "Z021": {
+      "name": "Fanta",
+      "type": "znacka",
+      "parent": "K046"
+    },
+    "B033": {
+      "name": "1l",
+      "type": "balenie",
+      "parent": "K046"
+    },
+    "K047": {
+      "name": "Sladené nápoje",
+      "type": "kategoria",
+      "parent": "K046"
+    },
+    "V068": {
+      "name": "grepová",
+      "type": "vlastnost",
+      "parent": "K047"
+    },
+    "K048": {
+      "name": "Balené vody",
+      "type": "kategoria",
+      "parent": "K046"
+    },
+    "V040": {
+      "name": "neperlivá",
+      "type": "vlastnost",
+      "parent": "K048"
+    },
+    "V041": {
+      "name": "jemne perlivá",
+      "type": "vlastnost",
+      "parent": "K048"
+    },
+    "V042": {
+      "name": "perlivá",
+      "type": "vlastnost",
+      "parent": "K048"
+    },
+    "K049": {
+      "name": "Džúsy",
+      "type": "kategoria",
+      "parent": "K046"
+    },
+    "V032": {
+      "name": "Pomarančový",
+      "type": "vlastnost",
+      "parent": "K049"
+    },
+    "V033": {
+      "name": "Jablkový",
+      "type": "vlastnost",
+      "parent": "K049"
+    },
+    "V034": {
+      "name": "Hruškový",
+      "type": "vlastnost",
+      "parent": "K049"
+    },
+    "V035": {
+      "name": "Multivitamín",
+      "type": "vlastnost",
+      "parent": "K049"
+    },
+    "V036": {
+      "name": "Grepový",
+      "type": "vlastnost",
+      "parent": "K049"
+    },
+    "V037": {
+      "name": "100%",
+      "type": "vlastnost",
+      "parent": "K049"
+    },
+    "V038": {
+      "name": "z koncentrátu",
+      "type": "vlastnost",
+      "parent": "K049"
+    },
+    "V039": {
+      "name": "za studena listovaný",
+      "type": "vlastnost",
+      "parent": "K049"
+    },
+    "B034": {
+      "name": "0.75l",
+      "type": "balenie",
+      "parent": "K046"
+    },
+    "B035": {
+      "name": "0.5l",
+      "type": "balenie",
+      "parent": "K046"
+    },
+    "B036": {
+      "name": "1.5l",
+      "type": "balenie",
+      "parent": "K046"
+    },
+    "B037": {
+      "name": "6*1.5l",
+      "type": "balenie",
+      "parent": "K046"
+    },
+    "B038": {
+      "name": "2l",
+      "type": "balenie",
+      "parent": "K046"
+    },
+    "B039": {
+      "name": "2.5l",
+      "type": "balenie",
+      "parent": "K046"
+    },
+    "K082": {
+      "name": "záloha za obal",
+      "type": "kategoria",
+      "parent": "K044"
+    },
+    "K053": {
+      "name": "Omáčky",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "K083": {
+      "name": "Kečup",
+      "type": "kategoria",
+      "parent": "K053"
+    },
+    "K084": {
+      "name": "Horčica",
+      "type": "kategoria",
+      "parent": "K053"
+    },
+    "K085": {
+      "name": "Tatárska omáčka",
+      "type": "kategoria",
+      "parent": "K053"
+    },
+    "K086": {
+      "name": "Thajská omáčka",
+      "type": "kategoria",
+      "parent": "K053"
+    },
+    "K087": {
+      "name": "Sójová omáčka",
+      "type": "kategoria",
+      "parent": "K053"
+    },
+    "K054": {
+      "name": "Ovocie",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "K096": {
+      "name": "Jablká",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K097": {
+      "name": "Banány",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K098": {
+      "name": "Čučoriedky",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K099": {
+      "name": "Slivky",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K100": {
+      "name": "Hrušky",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K101": {
+      "name": "Pomaranče",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K102": {
+      "name": "Kiwis",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K103": {
+      "name": "Mangá",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K104": {
+      "name": "Hrozno",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K105": {
+      "name": "Melóny",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K106": {
+      "name": "Ananásy",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K107": {
+      "name": "Jahody",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K108": {
+      "name": "Maliny",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K109": {
+      "name": "Čerešne",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K110": {
+      "name": "Broskyne",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K111": {
+      "name": "Nektarinky",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K112": {
+      "name": "Papája",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K113": {
+      "name": "Figy",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K114": {
+      "name": "Granátové jablká",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K115": {
+      "name": "Avokádo",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K139": {
+      "name": "Citróny",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "B006": {
+      "name": "125g",
+      "type": "balenie",
+      "parent": "K054"
+    },
+    "K094": {
+      "name": "Med, Džem",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "B017": {
+      "name": "1Kg",
+      "type": "balenie",
+      "parent": "K094"
+    },
+    "B018": {
+      "name": "250g",
+      "type": "balenie",
+      "parent": "K094"
+    },
+    "K092": {
+      "name": "Med",
+      "type": "kategoria",
+      "parent": "K094"
+    },
+    "V020": {
+      "name": "kvetový",
+      "type": "vlastnost",
+      "parent": "K092"
+    },
+    "K093": {
+      "name": "Džem",
+      "type": "kategoria",
+      "parent": "K094"
+    },
+    "V062": {
+      "name": "jahodový",
+      "type": "vlastnost",
+      "parent": "K093"
+    },
+    "V063": {
+      "name": "malinový",
+      "type": "vlastnost",
+      "parent": "K093"
+    },
+    "B062": {
+      "name": "340g",
+      "type": "balenie",
+      "parent": "K094"
+    },
+    "K005": {
+      "name": "Pečivo",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "B078": {
+      "name": "400g",
+      "type": "balenie",
+      "parent": "K005"
+    },
+    "B002": {
+      "name": "1000g",
+      "type": "balenie",
+      "parent": "K005"
+    },
+    "B049": {
+      "name": "500g",
+      "type": "balenie",
+      "parent": "K005"
+    },
+    "B050": {
+      "name": "750g",
+      "type": "balenie",
+      "parent": "K005"
+    },
+    "K006": {
+      "name": "Chlieb",
+      "type": "kategoria",
+      "parent": "K005"
+    },
+    "V053": {
+      "name": "sendvičový",
+      "type": "vlastnost",
+      "parent": "K006"
+    },
+    "V054": {
+      "name": "pšeničný",
+      "type": "vlastnost",
+      "parent": "K006"
+    },
+    "V055": {
+      "name": "ražný",
+      "type": "vlastnost",
+      "parent": "K006"
+    },
+    "V056": {
+      "name": "pšenično-ražný",
+      "type": "vlastnost",
+      "parent": "K006"
+    },
+    "V057": {
+      "name": "zemiakový",
+      "type": "vlastnost",
+      "parent": "K006"
+    },
+    "V058": {
+      "name": "svetlý",
+      "type": "vlastnost",
+      "parent": "K006"
+    },
+    "V059": {
+      "name": "tmavý",
+      "type": "vlastnost",
+      "parent": "K006"
+    },
+    "V060": {
+      "name": "celozrnný",
+      "type": "vlastnost",
+      "parent": "K006"
+    },
+    "V061": {
+      "name": "bezlepkový",
+      "type": "vlastnost",
+      "parent": "K006"
+    },
+    "K007": {
+      "name": "Rožky",
+      "type": "kategoria",
+      "parent": "K005"
+    },
+    "B003": {
+      "name": "50g",
+      "type": "balenie",
+      "parent": "K007"
+    },
+    "K008": {
+      "name": "Sladké pečivo",
+      "type": "kategoria",
+      "parent": "K005"
+    },
+    "K009": {
+      "name": "Ostatné pečivo",
+      "type": "kategoria",
+      "parent": "K005"
+    },
+    "K050": {
+      "name": "Pochutiny",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "B069": {
+      "name": "44g",
+      "type": "balenie",
+      "parent": "K050"
+    },
+    "B029": {
+      "name": "270g",
+      "type": "balenie",
+      "parent": "K050"
+    },
+    "B008": {
+      "name": "80g",
+      "type": "balenie",
+      "parent": "K050"
+    },
+    "K051": {
+      "name": "Slané pochutiny",
+      "type": "kategoria",
+      "parent": "K050"
+    },
+    "K052": {
+      "name": "Sladkosti",
+      "type": "kategoria",
+      "parent": "K050"
+    },
+    "Z013": {
+      "name": "Milka",
+      "type": "znacka",
+      "parent": "K052"
+    },
+    "Z014": {
+      "name": "Figaro",
+      "type": "znacka",
+      "parent": "K052"
+    },
+    "Z015": {
+      "name": "Snickers",
+      "type": "znacka",
+      "parent": "K052"
+    },
+    "K056": {
+      "name": "Jedlá a polotovary",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "K153": {
+      "name": "Instantné kaše",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "V067": {
+      "name": "čokoládová",
+      "type": "vlastnost",
+      "parent": "K153"
+    },
+    "V066": {
+      "name": "ryžová",
+      "type": "vlastnost",
+      "parent": "K153"
+    },
+    "K151": {
+      "name": "Nátierky",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K152": {
+      "name": "Humusové nátierky a šaláty",
+      "type": "kategoria",
+      "parent": "K151"
+    },
+    "K147": {
+      "name": "Šľahačka v spreji",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K095": {
+      "name": "Bagety, sendviče",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K090": {
+      "name": "Majonézové šaláty",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K091": {
+      "name": "Treska",
+      "type": "kategoria",
+      "parent": "K090"
+    },
+    "V080": {
+      "name": "Zlatá Čili",
+      "type": "vlastnost",
+      "parent": "K091"
+    },
+    "V009": {
+      "name": "Exkluziv 38%",
+      "type": "vlastnost",
+      "parent": "K091"
+    },
+    "B016": {
+      "name": "140g",
+      "type": "balenie",
+      "parent": "K091"
+    },
+    "K146": {
+      "name": "Konzervy",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K149": {
+      "name": "Kokosové mlieko",
+      "type": "kategoria",
+      "parent": "K146"
+    },
+    "B061": {
+      "name": "250g",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K043": {
+      "name": "Ryby a výrobky z nich",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "K140": {
+      "name": "Rybie konzervy",
+      "type": "kategoria",
+      "parent": "K043"
+    },
+    "B067": {
+      "name": "240g",
+      "type": "balenie",
+      "parent": "K140"
+    },
+    "V043": {
+      "name": "tuniak",
+      "type": "vlastnost",
+      "parent": "K140"
+    },
+    "V044": {
+      "name": "sleď",
+      "type": "vlastnost",
+      "parent": "K140"
+    },
+    "V045": {
+      "name": "v oleji olivovom",
+      "type": "vlastnost",
+      "parent": "K140"
+    },
+    "V046": {
+      "name": "v oleji slnečnicovom",
+      "type": "vlastnost",
+      "parent": "K140"
+    },
+    "V047": {
+      "name": "vo vlastnej šťave",
+      "type": "vlastnost",
+      "parent": "K140"
+    },
+    "V048": {
+      "name": "vo paradajkovej šťave",
+      "type": "vlastnost",
+      "parent": "K140"
+    },
+    "B040": {
+      "name": "80g",
+      "type": "balenie",
+      "parent": "K140"
+    },
+    "B041": {
+      "name": "3x80g",
+      "type": "balenie",
+      "parent": "K140"
+    },
+    "K057": {
+      "name": "Základné potraviny",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "B077": {
+      "name": "400g",
+      "type": "balenie",
+      "parent": "K057"
+    },
+    "B068": {
+      "name": "500g",
+      "type": "balenie",
+      "parent": "K057"
+    },
+    "B028": {
+      "name": "1kg",
+      "type": "balenie",
+      "parent": "K057"
+    },
+    "K058": {
+      "name": "Múka",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "V028": {
+      "name": "hladká",
+      "type": "vlastnost",
+      "parent": "K058"
+    },
+    "V029": {
+      "name": "polohrubá",
+      "type": "vlastnost",
+      "parent": "K058"
+    },
+    "V030": {
+      "name": "hrubá",
+      "type": "vlastnost",
+      "parent": "K058"
+    },
+    "V031": {
+      "name": "extra špeciál",
+      "type": "vlastnost",
+      "parent": "K058"
+    },
+    "K145": {
+      "name": "Krupica",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K059": {
+      "name": "Čaj",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K060": {
+      "name": "Káva",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "Z023": {
+      "name": "Nescafe",
+      "type": "znacka",
+      "parent": "K060"
+    },
+    "V027": {
+      "name": "instantná",
+      "type": "vlastnost",
+      "parent": "K060"
+    },
+    "B027": {
+      "name": "200g",
+      "type": "balenie",
+      "parent": "K060"
+    },
+    "Z012": {
+      "name": "Jacobs Velvet",
+      "type": "znacka",
+      "parent": "K060"
+    },
+    "K061": {
+      "name": "Cukor",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K062": {
+      "name": "Ryža",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "V079": {
+      "name": "arborio",
+      "type": "vlastnost",
+      "parent": "K062"
+    },
+    "V065": {
+      "name": "jazmínová",
+      "type": "vlastnost",
+      "parent": "K062"
+    },
+    "K063": {
+      "name": "Strukoviny",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K064": {
+      "name": "Cestoviny",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K164": {
+      "name": "Fusili",
+      "type": "kategoria",
+      "parent": "K064"
+    },
+    "K150": {
+      "name": "Tarhoňa",
+      "type": "kategoria",
+      "parent": "K064"
+    },
+    "K065": {
+      "name": "Vajcia",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "B024": {
+      "name": "10ks",
+      "type": "balenie",
+      "parent": "K065"
+    },
+    "B025": {
+      "name": "12ks",
+      "type": "balenie",
+      "parent": "K065"
+    },
+    "B026": {
+      "name": "6ks",
+      "type": "balenie",
+      "parent": "K065"
+    },
+    "V023": {
+      "name": "klietkový chov",
+      "type": "vlastnost",
+      "parent": "K065"
+    },
+    "V024": {
+      "name": "podstieľkový chov",
+      "type": "vlastnost",
+      "parent": "K065"
+    },
+    "V025": {
+      "name": "voľný výbeh",
+      "type": "vlastnost",
+      "parent": "K065"
+    },
+    "K066": {
+      "name": "Oleje a Tuky",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K068": {
+      "name": "Koreniny",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K144": {
+      "name": "Soľ",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "K055": {
+      "name": "Zelenina",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "K165": {
+      "name": "Šampióny",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K162": {
+      "name": "Šaláty",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K163": {
+      "name": "Polníček",
+      "type": "kategoria",
+      "parent": "K162"
+    },
+    "V078": {
+      "name": "rukola",
+      "type": "vlastnost",
+      "parent": "K162"
+    },
+    "B076": {
+      "name": "140g",
+      "type": "balenie",
+      "parent": "K162"
+    },
+    "B070": {
+      "name": "750g",
+      "type": "balenie",
+      "parent": "K055"
+    },
+    "K155": {
+      "name": "Tekvica",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K154": {
+      "name": "Batáty",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K116": {
+      "name": "Mrkva",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K117": {
+      "name": "Zemiaky",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K118": {
+      "name": "Brokolica",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K119": {
+      "name": "Cvikla",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K120": {
+      "name": "Cibula",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K121": {
+      "name": "Červená paprika",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K122": {
+      "name": "Paradajky",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K123": {
+      "name": "Uhorky",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "V070": {
+      "name": "poľná",
+      "type": "vlastnost",
+      "parent": "K123"
+    },
+    "V069": {
+      "name": "šalátová",
+      "type": "vlastnost",
+      "parent": "K123"
+    },
+    "K124": {
+      "name": "Špenát",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K125": {
+      "name": "Šalát",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K126": {
+      "name": "Cesnak",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K127": {
+      "name": "Kukurica",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K128": {
+      "name": "Fazuľa",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K129": {
+      "name": "Hrášok",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K130": {
+      "name": "Kapusta",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "B042": {
+      "name": "500g",
+      "type": "balenie",
+      "parent": "K055"
+    },
+    "B043": {
+      "name": "1000g",
+      "type": "balenie",
+      "parent": "K055"
+    },
+    "B044": {
+      "name": "80g",
+      "type": "balenie",
+      "parent": "K055"
+    },
+    "B045": {
+      "name": "100g",
+      "type": "balenie",
+      "parent": "K055"
+    },
+    "B046": {
+      "name": "250g",
+      "type": "balenie",
+      "parent": "K055"
+    },
+    "B007": {
+      "name": "125g",
+      "type": "balenie",
+      "parent": "K055"
+    },
+    "K131": {
+      "name": "Cereálie",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "K141": {
+      "name": "Sušené ovocie a orechy",
+      "type": "kategoria",
+      "parent": "K001"
+    },
+    "K142": {
+      "name": "Sušené hrozienka",
+      "type": "kategoria",
+      "parent": "K141"
+    },
+    "B048": {
+      "name": "150g",
+      "type": "balenie",
+      "parent": "K141"
+    },
+    "K013": {
+      "name": "Zábava a Relax",
+      "type": "kategoria",
+      "parent": ""
+    },
+    "K014": {
+      "name": "Káva",
+      "type": "kategoria",
+      "parent": "K013"
+    },
+    "K015": {
+      "name": "Víno",
+      "type": "kategoria",
+      "parent": "K013"
+    },
+    "K016": {
+      "name": "Pivo",
+      "type": "kategoria",
+      "parent": "K013"
+    },
+    "K017": {
+      "name": "Noviny a časopisy",
+      "type": "kategoria",
+      "parent": "K013"
+    },
+    "K018": {
+      "name": "Tabakové výrobky",
+      "type": "kategoria",
+      "parent": "K013"
+    },
+    "K019": {
+      "name": "Dovolenky",
+      "type": "kategoria",
+      "parent": "K013"
+    },
+    "K020": {
+      "name": "Kino, Divadlo, Koncerty",
+      "type": "kategoria",
+      "parent": "K013"
+    },
+    "K143": {
+      "name": "Športové potreby a šport",
+      "type": "kategoria",
+      "parent": "K013"
+    },
+    "K021": {
+      "name": "Stravovanie vonku",
+      "type": "kategoria",
+      "parent": ""
+    },
+    "K022": {
+      "name": "McDonalds",
+      "type": "kategoria",
+      "parent": "K021"
+    },
+    "K023": {
+      "name": "Sakura Nitra",
+      "type": "kategoria",
+      "parent": "K021"
+    },
+    "K024": {
+      "name": "Oblečenie a obuv",
+      "type": "kategoria",
+      "parent": ""
+    },
+    "K025": {
+      "name": "Oblečenie",
+      "type": "kategoria",
+      "parent": "K024"
+    },
+    "K026": {
+      "name": "Obuv",
+      "type": "kategoria",
+      "parent": "K024"
+    },
+    "K027": {
+      "name": "Ostatné",
+      "type": "kategoria",
+      "parent": "K024"
+    },
+    "K028": {
+      "name": "Doprava a Cestovanie",
+      "type": "kategoria",
+      "parent": ""
+    },
+    "K029": {
+      "name": "Domácnosť, Záhrada",
+      "type": "kategoria",
+      "parent": ""
+    },
+    "K030": {
+      "name": "Kancelárske potreby",
+      "type": "kategoria",
+      "parent": "K029"
+    },
+    "K031": {
+      "name": "Drogéria",
+      "type": "kategoria",
+      "parent": "K029"
+    },
+    "K070": {
+      "name": "Šampón",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "B004": {
+      "name": "750ml",
+      "type": "balenie",
+      "parent": "K070"
+    },
+    "B005": {
+      "name": "400ml",
+      "type": "balenie",
+      "parent": "K070"
+    },
+    "K071": {
+      "name": "Toaletný papier",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "V004": {
+      "name": "2-vrstvový",
+      "type": "vlastnost",
+      "parent": "K071"
+    },
+    "V005": {
+      "name": "3-vrstvový",
+      "type": "vlastnost",
+      "parent": "K071"
+    },
+    "B011": {
+      "name": "8 roliek",
+      "type": "balenie",
+      "parent": "K071"
+    },
+    "B012": {
+      "name": "4 rolky",
+      "type": "balenie",
+      "parent": "K071"
+    },
+    "K040": {
+      "name": "Domáce zvieratá",
+      "type": "kategoria",
+      "parent": "K029"
+    },
+    "K032": {
+      "name": "Lieky, Ošetrenia, Zdravie",
+      "type": "kategoria",
+      "parent": ""
+    },
+    "K033": {
+      "name": "Auto",
+      "type": "kategoria",
+      "parent": ""
+    },
+    "K034": {
+      "name": "Pohonné hmoty",
+      "type": "kategoria",
+      "parent": "K033"
+    },
+    "K072": {
+      "name": "Nafta",
+      "type": "kategoria",
+      "parent": "K034"
+    },
+    "K073": {
+      "name": "Benzín",
+      "type": "kategoria",
+      "parent": "K034"
+    },
+    "K035": {
+      "name": "Opravy, Náhradné diely, Údržba",
+      "type": "kategoria",
+      "parent": "K033"
+    },
+    "K036": {
+      "name": "Poistenie a služby",
+      "type": "kategoria",
+      "parent": "K033"
+    },
+    "K037": {
+      "name": "Rodina",
+      "type": "kategoria",
+      "parent": ""
+    },
+    "K038": {
+      "name": "Škola, Škôlka, Strava, Krúžky",
+      "type": "kategoria",
+      "parent": "K037"
+    },
+    "K039": {
+      "name": "Darčeky, Oslavy",
+      "type": "kategoria",
+      "parent": "K037"
+    },
+    "K088": {
+      "name": "Hračky",
+      "type": "kategoria",
+      "parent": "K037"
+    },
+    "K089": {
+      "name": "Kurzy a vzdelávanie, ich pomôcky",
+      "type": "kategoria",
+      "parent": "K037"
+    },
+    "K041": {
+      "name": "Ostatné, Nezaradené",
+      "type": "kategoria",
+      "parent": ""
+    },
+    "Z001": {
+      "name": "Rajo",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z002": {
+      "name": "Topec",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z003": {
+      "name": "Schauma",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z004": {
+      "name": "Fa",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z005": {
+      "name": "Evo",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z006": {
+      "name": "Fornetti",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z007": {
+      "name": "Coca Cola",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z008": {
+      "name": "Coop",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z009": {
+      "name": "Relax",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z010": {
+      "name": "Lúčina",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z011": {
+      "name": "Mullermilch",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z016": {
+      "name": "Pribináčik",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z017": {
+      "name": "Happy Day",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z018": {
+      "name": "Actimel",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z019": {
+      "name": "Gemerka",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z020": {
+      "name": "Oreo",
+      "type": "znacka",
+      "parent": ""
     }
   }
 }
