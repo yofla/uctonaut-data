@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "8. 10. 2024 17:44:47",
+  "updatedAt": "18. 9. 2026 11:13:06",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -951,7 +951,7 @@
     },
     "B061": {
       "name": "250g",
-      "type": "kategoria",
+      "type": "balenie",
       "parent": "K056"
     },
     "K043": {
@@ -1648,6 +1648,21 @@
       "name": "Oreo",
       "type": "znacka",
       "parent": ""
+    },
+    "K166": {
+      "name": "Smotana",
+      "type": "kategoria",
+      "parent": "K002"
+    },
+    "V081": {
+      "name": "kyslá",
+      "type": "vlastnost",
+      "parent": "K166"
+    },
+    "V082": {
+      "name": "na šľahanie",
+      "type": "vlastnost",
+      "parent": "K166"
     }
   }
 }
