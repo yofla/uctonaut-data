@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "18. 9. 2026 11:13:06",
+  "updatedAt": "19. 9. 2026 13:04:08",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1663,6 +1663,26 @@
       "name": "na šľahanie",
       "type": "vlastnost",
       "parent": "K166"
+    },
+    "K167": {
+      "name": "Nie je tovar",
+      "type": "kategoria",
+      "parent": ""
+    },
+    "K168": {
+      "name": "Záloha",
+      "type": "kategoria",
+      "parent": "K167"
+    },
+    "K169": {
+      "name": "Vratný obal",
+      "type": "kategoria",
+      "parent": "K167"
+    },
+    "K170": {
+      "name": "Zľava",
+      "type": "kategoria",
+      "parent": "K167"
     }
   }
 }
