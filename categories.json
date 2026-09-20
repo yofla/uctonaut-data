@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "19. 9. 2026 13:04:08",
+  "updatedAt": "19. 9. 2026 20:18:15",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1683,6 +1683,11 @@
       "name": "Zľava",
       "type": "kategoria",
       "parent": "K167"
+    },
+    "B079": {
+      "name": "175g",
+      "type": "balenie",
+      "parent": "K074"
     }
   }
 }
