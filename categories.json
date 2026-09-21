@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "20. 9. 2026 19:25:08",
+  "updatedAt": "21. 9. 2026 11:29:20",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1688,6 +1688,41 @@
       "name": "175g",
       "type": "balenie",
       "parent": "K074"
+    },
+    "K171": {
+      "name": "Domáce potreby",
+      "type": "kategoria",
+      "parent": "K029"
+    },
+    "K172": {
+      "name": "Kuchynské utierky",
+      "type": "kategoria",
+      "parent": "K171"
+    },
+    "V083": {
+      "name": "2 vrstvy",
+      "type": "vlastnost",
+      "parent": "K172"
+    },
+    "K173": {
+      "name": "Hygienické vreckovky",
+      "type": "kategoria",
+      "parent": "K171"
+    },
+    "B080": {
+      "name": "10ks",
+      "type": "balenie",
+      "parent": "K173"
+    },
+    "V084": {
+      "name": "3 vrstvy",
+      "type": "vlastnost",
+      "parent": "K173"
+    },
+    "V085": {
+      "name": "2 vrstvy",
+      "type": "vlastnost",
+      "parent": "K173"
     }
   }
 }
