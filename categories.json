@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "19. 9. 2026 20:18:15",
+  "updatedAt": "20. 9. 2026 19:25:08",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1675,7 +1675,7 @@
       "parent": "K167"
     },
     "K169": {
-      "name": "Vratný obal",
+      "name": "obal",
       "type": "kategoria",
       "parent": "K167"
     },
