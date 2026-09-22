@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "21. 9. 2026 14:56:06",
+  "updatedAt": "22. 9. 2026 16:38:41",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1738,6 +1738,286 @@
       "name": "bio",
       "type": "vlastnost",
       "parent": "K174"
+    },
+    "B082": {
+      "name": "14g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B083": {
+      "name": "15g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B084": {
+      "name": "18g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B085": {
+      "name": "21.5g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B086": {
+      "name": "25g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B087": {
+      "name": "29g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B088": {
+      "name": "30g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B089": {
+      "name": "33.3g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B090": {
+      "name": "35g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B091": {
+      "name": "40g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B092": {
+      "name": "45g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B093": {
+      "name": "50g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B094": {
+      "name": "51g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B095": {
+      "name": "54g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B096": {
+      "name": "56g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B097": {
+      "name": "57g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B098": {
+      "name": "60g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B099": {
+      "name": "64g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B100": {
+      "name": "65g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B101": {
+      "name": "70g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B102": {
+      "name": "85g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B103": {
+      "name": "90g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B104": {
+      "name": "100g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B105": {
+      "name": "110g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B106": {
+      "name": "118g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B107": {
+      "name": "122g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B108": {
+      "name": "125g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B109": {
+      "name": "130g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B110": {
+      "name": "150g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B111": {
+      "name": "175g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B112": {
+      "name": "180g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B113": {
+      "name": "190g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B114": {
+      "name": "200g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B115": {
+      "name": "210g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B116": {
+      "name": "220g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B117": {
+      "name": "230g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B118": {
+      "name": "240g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B119": {
+      "name": "250g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B120": {
+      "name": "300g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B121": {
+      "name": "350g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B122": {
+      "name": "370g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B123": {
+      "name": "400g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B124": {
+      "name": "450g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B125": {
+      "name": "500g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B126": {
+      "name": "600g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B127": {
+      "name": "650g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B128": {
+      "name": "860g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B129": {
+      "name": "1kg",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B130": {
+      "name": "2kg",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B131": {
+      "name": "2.2kg",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B132": {
+      "name": "180ml",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B133": {
+      "name": "200ml",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B134": {
+      "name": "330ml",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B135": {
+      "name": "400ml",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B136": {
+      "name": "500ml",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B137": {
+      "name": "1.75l",
+      "type": "balenie",
+      "parent": "K001"
     }
   }
 }
