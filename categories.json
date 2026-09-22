@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "21. 9. 2026 11:29:20",
+  "updatedAt": "21. 9. 2026 14:56:06",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1723,6 +1723,21 @@
       "name": "2 vrstvy",
       "type": "vlastnost",
       "parent": "K173"
+    },
+    "K174": {
+      "name": "Javorový sirup",
+      "type": "kategoria",
+      "parent": "K053"
+    },
+    "B081": {
+      "name": "250ml",
+      "type": "balenie",
+      "parent": "K174"
+    },
+    "V086": {
+      "name": "bio",
+      "type": "vlastnost",
+      "parent": "K174"
     }
   }
 }
