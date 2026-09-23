@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "22. 9. 2026 16:38:41",
+  "updatedAt": "22. 9. 2026 17:05:33",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2018,6 +2018,96 @@
       "name": "1.75l",
       "type": "balenie",
       "parent": "K001"
+    },
+    "K175": {
+      "name": "Aviváž",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K176": {
+      "name": "Prací prostriedok",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K177": {
+      "name": "Mydlo a sprchovací gél",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K178": {
+      "name": "Čistiace prostriedky",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K179": {
+      "name": "WC čistiace prostriedky",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K180": {
+      "name": "Zmrzlina a nanuky",
+      "type": "kategoria",
+      "parent": "K052"
+    },
+    "K181": {
+      "name": "Nákupné tašky",
+      "type": "kategoria",
+      "parent": "K171"
+    },
+    "K182": {
+      "name": "Polievky",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K183": {
+      "name": "Instantné rezance",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K184": {
+      "name": "Ocot",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K185": {
+      "name": "Droždie",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K186": {
+      "name": "Mak",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K187": {
+      "name": "Hliva",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K188": {
+      "name": "Zeler",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K189": {
+      "name": "Zázvor",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K190": {
+      "name": "Petržlen",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K191": {
+      "name": "Smoothie a shoty",
+      "type": "kategoria",
+      "parent": "K046"
+    },
+    "K192": {
+      "name": "Výživové doplnky",
+      "type": "kategoria",
+      "parent": "K032"
     }
   }
 }
