@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "22. 9. 2026 17:05:33",
+  "updatedAt": "23. 9. 2026 21:20:28",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2108,6 +2108,31 @@
       "name": "Výživové doplnky",
       "type": "kategoria",
       "parent": "K032"
+    },
+    "V087": {
+      "name": "bezlaktózová",
+      "type": "vlastnost",
+      "parent": "K166"
+    },
+    "V088": {
+      "name": "30%",
+      "type": "vlastnost",
+      "parent": "K166"
+    },
+    "V089": {
+      "name": "na varenie",
+      "type": "vlastnost",
+      "parent": "K166"
+    },
+    "B138": {
+      "name": "180ml",
+      "type": "balenie",
+      "parent": "K166"
+    },
+    "B139": {
+      "name": "250ml",
+      "type": "balenie",
+      "parent": "K166"
     }
   }
 }
