@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "24. 9. 2026 09:42:20",
+  "updatedAt": "24. 9. 2026 11:24:49",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -538,11 +538,6 @@
       "name": "2.5l",
       "type": "balenie",
       "parent": "K046"
-    },
-    "K082": {
-      "name": "záloha za obal",
-      "type": "kategoria",
-      "parent": "K044"
     },
     "K053": {
       "name": "Omáčky",
