@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "23. 9. 2026 21:20:28",
+  "updatedAt": "24. 9. 2026 09:39:37",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2133,6 +2133,551 @@
       "name": "250ml",
       "type": "balenie",
       "parent": "K166"
+    },
+    "K193": {
+      "name": "Čokolády a tyčinky",
+      "type": "kategoria",
+      "parent": "K052"
+    },
+    "K194": {
+      "name": "Náradie a stavebný materiál",
+      "type": "kategoria",
+      "parent": "K029"
+    },
+    "K195": {
+      "name": "Sušienky a oblátky",
+      "type": "kategoria",
+      "parent": "K052"
+    },
+    "K196": {
+      "name": "Pre psov",
+      "type": "kategoria",
+      "parent": "K040"
+    },
+    "K197": {
+      "name": "Cukríky",
+      "type": "kategoria",
+      "parent": "K052"
+    },
+    "K198": {
+      "name": "Chipsy",
+      "type": "kategoria",
+      "parent": "K051"
+    },
+    "K199": {
+      "name": "Žuvačky",
+      "type": "kategoria",
+      "parent": "K052"
+    },
+    "K200": {
+      "name": "Záhrada a rastliny",
+      "type": "kategoria",
+      "parent": "K029"
+    },
+    "K201": {
+      "name": "Knedle a buchty",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K202": {
+      "name": "Losos",
+      "type": "kategoria",
+      "parent": "K043"
+    },
+    "K203": {
+      "name": "Zubná pasta",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K204": {
+      "name": "Zubná kefka",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K205": {
+      "name": "Prostriedky na umývanie riadu",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K206": {
+      "name": "Paprika",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K207": {
+      "name": "Prísady na pečenie",
+      "type": "kategoria",
+      "parent": "K057"
+    },
+    "K208": {
+      "name": "Dámska hygiena",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K209": {
+      "name": "Mandarínky",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K210": {
+      "name": "Pleťová a telová kozmetika",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K211": {
+      "name": "Klobásy",
+      "type": "kategoria",
+      "parent": "K042"
+    },
+    "K212": {
+      "name": "Pizza",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K213": {
+      "name": "Sirupy",
+      "type": "kategoria",
+      "parent": "K046"
+    },
+    "K214": {
+      "name": "Vrecia na odpad a fólie",
+      "type": "kategoria",
+      "parent": "K171"
+    },
+    "K215": {
+      "name": "Sushi",
+      "type": "kategoria",
+      "parent": "K069"
+    },
+    "K216": {
+      "name": "Hranolky a krokety",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "K217": {
+      "name": "Kefír a mliečne nápoje",
+      "type": "kategoria",
+      "parent": "K002"
+    },
+    "K218": {
+      "name": "Cuketa",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K219": {
+      "name": "Batérie a žiarovky",
+      "type": "kategoria",
+      "parent": "K171"
+    },
+    "K220": {
+      "name": "Holenie a depilácia",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K221": {
+      "name": "Čokoládové nátierky",
+      "type": "kategoria",
+      "parent": "K094"
+    },
+    "K222": {
+      "name": "Deodorant",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K223": {
+      "name": "Reďkovky",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K224": {
+      "name": "Kaleráb",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K225": {
+      "name": "Marhule",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "K226": {
+      "name": "Kozmetické tampóny a vatové tyčinky",
+      "type": "kategoria",
+      "parent": "K031"
+    },
+    "K227": {
+      "name": "Karfiol",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K228": {
+      "name": "Čerstvé bylinky",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K229": {
+      "name": "Servítky",
+      "type": "kategoria",
+      "parent": "K171"
+    },
+    "K230": {
+      "name": "Pór",
+      "type": "kategoria",
+      "parent": "K055"
+    },
+    "K231": {
+      "name": "Limetky",
+      "type": "kategoria",
+      "parent": "K054"
+    },
+    "V090": {
+      "name": "trvanlivé (UHT)",
+      "type": "vlastnost",
+      "parent": "K003"
+    },
+    "V091": {
+      "name": "stracciatella",
+      "type": "vlastnost",
+      "parent": "K004"
+    },
+    "V092": {
+      "name": "bryndza",
+      "type": "vlastnost",
+      "parent": "K011"
+    },
+    "V093": {
+      "name": "grécky typ",
+      "type": "vlastnost",
+      "parent": "K004"
+    },
+    "V094": {
+      "name": "tmavé",
+      "type": "vlastnost",
+      "parent": "K016"
+    },
+    "V095": {
+      "name": "svetlé",
+      "type": "vlastnost",
+      "parent": "K016"
+    },
+    "V096": {
+      "name": "radler",
+      "type": "vlastnost",
+      "parent": "K016"
+    },
+    "V097": {
+      "name": "bez cukru",
+      "type": "vlastnost",
+      "parent": "K046"
+    },
+    "V098": {
+      "name": "údený",
+      "type": "vlastnost",
+      "parent": "K011"
+    },
+    "V099": {
+      "name": "kokosový",
+      "type": "vlastnost",
+      "parent": "K004"
+    },
+    "V100": {
+      "name": "tavený",
+      "type": "vlastnost",
+      "parent": "K011"
+    },
+    "V101": {
+      "name": "cottage",
+      "type": "vlastnost",
+      "parent": "K011"
+    },
+    "V102": {
+      "name": "eidam",
+      "type": "vlastnost",
+      "parent": "K011"
+    },
+    "V103": {
+      "name": "mozzarella",
+      "type": "vlastnost",
+      "parent": "K011"
+    },
+    "V104": {
+      "name": "bez kofeínu",
+      "type": "vlastnost",
+      "parent": "K060"
+    },
+    "V105": {
+      "name": "IPA",
+      "type": "vlastnost",
+      "parent": "K016"
+    },
+    "V106": {
+      "name": "čerstvé",
+      "type": "vlastnost",
+      "parent": "K003"
+    },
+    "V107": {
+      "name": "zrnková",
+      "type": "vlastnost",
+      "parent": "K060"
+    },
+    "B140": {
+      "name": "0.5l",
+      "type": "balenie",
+      "parent": "K016"
+    },
+    "B141": {
+      "name": "100g",
+      "type": "balenie",
+      "parent": "K040"
+    },
+    "B142": {
+      "name": "1kg",
+      "type": "balenie",
+      "parent": "K040"
+    },
+    "B143": {
+      "name": "1l",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B144": {
+      "name": "50ml",
+      "type": "balenie",
+      "parent": "K031"
+    },
+    "B145": {
+      "name": "20ks",
+      "type": "balenie",
+      "parent": "K031"
+    },
+    "B146": {
+      "name": "147g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B147": {
+      "name": "500ml",
+      "type": "balenie",
+      "parent": "K031"
+    },
+    "B148": {
+      "name": "75ml",
+      "type": "balenie",
+      "parent": "K031"
+    },
+    "B149": {
+      "name": "415g",
+      "type": "balenie",
+      "parent": "K040"
+    },
+    "B150": {
+      "name": "10 roliek",
+      "type": "balenie",
+      "parent": "K071"
+    },
+    "B151": {
+      "name": "170g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B152": {
+      "name": "165g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "B153": {
+      "name": "120g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "Z030": {
+      "name": "K-Classic",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z031": {
+      "name": "Tesco",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z032": {
+      "name": "Termix",
+      "type": "znacka",
+      "parent": "K074"
+    },
+    "Z033": {
+      "name": "K-Favourites",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z034": {
+      "name": "Orbit",
+      "type": "znacka",
+      "parent": "K050"
+    },
+    "Z035": {
+      "name": "Birell",
+      "type": "znacka",
+      "parent": "K046"
+    },
+    "Z036": {
+      "name": "Zvolenský",
+      "type": "znacka",
+      "parent": "K004"
+    },
+    "Z037": {
+      "name": "K-Bio",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z038": {
+      "name": "Zlatý Bažant",
+      "type": "znacka",
+      "parent": "K016"
+    },
+    "Z039": {
+      "name": "Balea",
+      "type": "znacka",
+      "parent": "K031"
+    },
+    "Z040": {
+      "name": "Opavia",
+      "type": "znacka",
+      "parent": "K052"
+    },
+    "Z041": {
+      "name": "Kofola",
+      "type": "znacka",
+      "parent": "K047"
+    },
+    "Z042": {
+      "name": "Vinea",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z043": {
+      "name": "Rajec",
+      "type": "znacka",
+      "parent": "K048"
+    },
+    "Z044": {
+      "name": "Coccolino",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z045": {
+      "name": "Kinder",
+      "type": "znacka",
+      "parent": "K052"
+    },
+    "Z046": {
+      "name": "Bella",
+      "type": "znacka",
+      "parent": "K031"
+    },
+    "Z047": {
+      "name": "Odol",
+      "type": "znacka",
+      "parent": "K031"
+    },
+    "Z048": {
+      "name": "Sedita",
+      "type": "znacka",
+      "parent": "K052"
+    },
+    "Z049": {
+      "name": "Orion",
+      "type": "znacka",
+      "parent": "K052"
+    },
+    "Z050": {
+      "name": "Jacobs",
+      "type": "znacka",
+      "parent": "K060"
+    },
+    "Z051": {
+      "name": "Pom-Bär",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z052": {
+      "name": "Šariš",
+      "type": "znacka",
+      "parent": "K016"
+    },
+    "Z053": {
+      "name": "Mivolis",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z054": {
+      "name": "Denkmit",
+      "type": "znacka",
+      "parent": "K031"
+    },
+    "Z055": {
+      "name": "Frosch",
+      "type": "znacka",
+      "parent": "K031"
+    },
+    "Z056": {
+      "name": "Dr. Oetker",
+      "type": "znacka",
+      "parent": "K057"
+    },
+    "Z057": {
+      "name": "Clever",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z058": {
+      "name": "Tami",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z059": {
+      "name": "Liptov",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z060": {
+      "name": "Pilos",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z061": {
+      "name": "Zott",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z062": {
+      "name": "Budiš",
+      "type": "znacka",
+      "parent": "K048"
+    },
+    "Z063": {
+      "name": "Tauris",
+      "type": "znacka",
+      "parent": ""
+    },
+    "Z064": {
+      "name": "Nivea",
+      "type": "znacka",
+      "parent": "K031"
+    },
+    "Z065": {
+      "name": "Activia",
+      "type": "znacka",
+      "parent": "K002"
+    },
+    "Z066": {
+      "name": "Danone",
+      "type": "znacka",
+      "parent": "K002"
+    },
+    "Z067": {
+      "name": "Haribo",
+      "type": "znacka",
+      "parent": "K052"
     }
   }
 }
