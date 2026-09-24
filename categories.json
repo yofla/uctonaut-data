@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "24. 9. 2026 09:39:37",
+  "updatedAt": "24. 9. 2026 09:41:20",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1365,7 +1365,7 @@
       "parent": ""
     },
     "K014": {
-      "name": "Káva",
+      "name": "Káva vonku",
       "type": "kategoria",
       "parent": "K013"
     },
@@ -1737,7 +1737,7 @@
     "V086": {
       "name": "bio",
       "type": "vlastnost",
-      "parent": "K174"
+      "parent": "K001"
     },
     "B082": {
       "name": "14g",
@@ -2678,6 +2678,16 @@
       "name": "Haribo",
       "type": "znacka",
       "parent": "K052"
+    },
+    "V108": {
+      "name": "červená",
+      "type": "vlastnost",
+      "parent": "K206"
+    },
+    "V109": {
+      "name": "kápia",
+      "type": "vlastnost",
+      "parent": "K206"
     }
   }
 }
