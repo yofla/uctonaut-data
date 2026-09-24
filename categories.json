@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "24. 9. 2026 09:41:20",
+  "updatedAt": "24. 9. 2026 09:42:20",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1246,11 +1246,6 @@
     },
     "K120": {
       "name": "Cibula",
-      "type": "kategoria",
-      "parent": "K055"
-    },
-    "K121": {
-      "name": "Červená paprika",
       "type": "kategoria",
       "parent": "K055"
     },
