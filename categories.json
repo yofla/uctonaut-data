@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "25. 9. 2026 17:37:37",
+  "updatedAt": "25. 9. 2026 18:03:12",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2683,6 +2683,21 @@
       "name": "Poistenie a odvody",
       "type": "kategoria",
       "parent": ""
+    },
+    "K233": {
+      "name": "Energie",
+      "type": "kategoria",
+      "parent": "K029"
+    },
+    "K234": {
+      "name": "Telefón a internet",
+      "type": "kategoria",
+      "parent": "K029"
+    },
+    "K235": {
+      "name": "Predplatné",
+      "type": "kategoria",
+      "parent": "K013"
     }
   }
 }
