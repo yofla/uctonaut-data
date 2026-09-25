@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "24. 9. 2026 11:24:49",
+  "updatedAt": "25. 9. 2026 17:37:37",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2678,6 +2678,11 @@
       "name": "kápia",
       "type": "vlastnost",
       "parent": "K206"
+    },
+    "K232": {
+      "name": "Poistenie a odvody",
+      "type": "kategoria",
+      "parent": ""
     }
   }
 }
