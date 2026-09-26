@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "25. 9. 2026 18:03:12",
+  "updatedAt": "26. 9. 2026 21:10:14",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -1550,9 +1550,9 @@
       "parent": "K037"
     },
     "K089": {
-      "name": "Kurzy a vzdelávanie, ich pomôcky",
+      "name": "Vzdelávanie a kurzy",
       "type": "kategoria",
-      "parent": "K037"
+      "parent": ""
     },
     "K041": {
       "name": "Ostatné, Nezaradené",
