@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "27. 9. 2026 09:32:29",
+  "updatedAt": "27. 9. 2026 10:26:43",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2741,7 +2741,7 @@
     },
     {
       "match": "ico:55475485",
-      "code": "K032"
+      "code": "K237"
     },
     {
       "match": "ico:52176576",
@@ -2757,11 +2757,11 @@
     },
     {
       "match": "ico:46076379",
-      "code": "K032"
+      "code": "K237"
     },
     {
       "match": "ico:36607169",
-      "code": "K032"
+      "code": "K237"
     },
     {
       "match": "name:poistov|generali|allianz|kooperativa|\\bunion\\b|\\bvszp\\b|\\bdovera\\b|socialna poist",
@@ -2769,7 +2769,7 @@
     },
     {
       "match": "name:lekaren|\\bdr\\s*max\\b|\\bbenu\\b|pharma",
-      "code": "K032"
+      "code": "K237"
     },
     {
       "match": "name:dental|stomatolog|zubn",
@@ -2784,8 +2784,12 @@
       "code": "K031"
     },
     {
-      "match": "name:\\bikea\\b|\\bjysk\\b|\\bxxxlutz\\b|\\bmobelix\\b|\\bsconto\\b",
+      "match": "name:\\bikea\\b",
       "code": "K029"
+    },
+    {
+      "match": "name:\\bjysk\\b|\\bxxxlutz\\b|\\bmobelix\\b|\\bsconto\\b",
+      "code": "K236"
     },
     {
       "match": "name:\\bdeichmann\\b|\\bccc\\b|\\bbata\\b",
