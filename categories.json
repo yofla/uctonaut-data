@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "26. 9. 2026 21:10:14",
+  "updatedAt": "27. 9. 2026 09:24:20",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2699,5 +2699,131 @@
       "type": "kategoria",
       "parent": "K013"
     }
-  }
+  },
+  "merchants": [
+    {
+      "match": "ico:31570364",
+      "code": "K035"
+    },
+    {
+      "match": "ico:54304407",
+      "code": "K060"
+    },
+    {
+      "match": "ico:47257351",
+      "code": "K032"
+    },
+    {
+      "match": "ico:50659758",
+      "code": "K032"
+    },
+    {
+      "match": "ico:50963902",
+      "code": "K034"
+    },
+    {
+      "match": "ico:56809221",
+      "code": "K021"
+    },
+    {
+      "match": "ico:50290801",
+      "code": "K040"
+    },
+    {
+      "match": "ico:55475485",
+      "code": "K032"
+    },
+    {
+      "match": "ico:52176576",
+      "code": "K021"
+    },
+    {
+      "match": "ico:44940751",
+      "code": "K013"
+    },
+    {
+      "match": "ico:36521931",
+      "code": "K033"
+    },
+    {
+      "match": "ico:46076379",
+      "code": "K032"
+    },
+    {
+      "match": "ico:36607169",
+      "code": "K032"
+    },
+    {
+      "match": "name:poistov|generali|allianz|kooperativa|\\bunion\\b|\\bvszp\\b|\\bdovera\\b|socialna poist",
+      "code": "K232"
+    },
+    {
+      "match": "name:lekaren|\\bdr\\s*max\\b|\\bbenu\\b|pharma",
+      "code": "K032"
+    },
+    {
+      "match": "name:dental|stomatolog|zubn",
+      "code": "K032"
+    },
+    {
+      "match": "name:veterin",
+      "code": "K040"
+    },
+    {
+      "match": "name:\\bdm drogerie\\b|\\bteta drogerie\\b|\\brossmann\\b",
+      "code": "K031"
+    },
+    {
+      "match": "name:\\bikea\\b|\\bjysk\\b|\\bxxxlutz\\b|\\bmobelix\\b|\\bsconto\\b",
+      "code": "K029"
+    },
+    {
+      "match": "name:\\bdeichmann\\b|\\bccc\\b|\\bbata\\b",
+      "code": "K026"
+    },
+    {
+      "match": "name:\\blpp\\b|\\bkik\\b|\\bh m\\b|\\bh&m\\b|\\bpepco\\b|\\bc a\\b|\\bnew yorker\\b|\\breserved\\b",
+      "code": "K024"
+    },
+    {
+      "match": "name:pneu|autoservis",
+      "code": "K035"
+    },
+    {
+      "match": "name:\\bzse\\b|\\bsse\\b|\\bvse\\b|\\bspp\\b|energetika|elektrarne|vodarensk|\\bvodaren",
+      "code": "K233"
+    },
+    {
+      "match": "name:telekom|\\borange\\b|\\bo2\\b|\\b4ka\\b|swan|\\bantik\\b",
+      "code": "K234"
+    },
+    {
+      "match": "name:slovnaft|\\bomv\\b|\\bshell\\b|\\bmol\\b|petrol|\\boktan\\b|tankovanie",
+      "code": "K034"
+    },
+    {
+      "match": "name:asfinag|dialnic|\\bmyto\\b|vinet|\\btunel\\b|parking|parkovan",
+      "code": "K033"
+    },
+    {
+      "match": "name:skylink|netflix|spotify|\\bhbo\\b|disney|youtube premium",
+      "code": "K235"
+    },
+    {
+      "match": "name:skolsk\\w* jedalen|\\bjedalen\\b|skolacik",
+      "code": "K038"
+    },
+    {
+      "match": "name:transdev|\\bdpb\\b|arriva|slovak lines|\\bzssk\\b|regiojet|leo express|letisko",
+      "code": "K028"
+    },
+    {
+      "match": "name:camping|\\bcamp\\b|\\bkemp\\b|\\bhotel\\b|penzion|\\bvilla\\b|resort",
+      "code": "K019"
+    },
+    {
+      "match": "name:kniha|knihkup|martinus|panta rhei",
+      "code": "K089"
+    }
+  ]
 }
