@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "27. 9. 2026 10:26:43",
+  "updatedAt": "13. 10. 2026 10:32:06",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2733,7 +2733,8 @@
     },
     {
       "match": "ico:56809221",
-      "code": "K021"
+      "code": "K021",
+      "override": true
     },
     {
       "match": "ico:50290801",
@@ -2762,6 +2763,61 @@
     {
       "match": "ico:36607169",
       "code": "K237"
+    },
+    {
+      "match": "ico:36539155",
+      "code": "K022",
+      "override": true
+    },
+    {
+      "match": "ico:31392229",
+      "code": "K022",
+      "override": true
+    },
+    {
+      "match": "ico:35795425",
+      "code": "K022",
+      "override": true
+    },
+    {
+      "match": "ico:53146476",
+      "code": "K022",
+      "override": true
+    },
+    {
+      "match": "ico:54934753",
+      "code": "K022",
+      "override": true
+    },
+    {
+      "match": "ico:34146415",
+      "code": "K023",
+      "override": true
+    },
+    {
+      "match": "ico:22678557",
+      "code": "K021",
+      "override": true
+    },
+    {
+      "match": "ico:35852143",
+      "code": "K021",
+      "override": true
+    },
+    {
+      "match": "ico:50869680",
+      "code": "K021",
+      "override": true
+    },
+    {
+      "match": "ico:44384084",
+      "code": "K021",
+      "override": true
+    },
+    {
+      "match": "ico:51802341",
+      "code": "K021",
+      "override": true
     },
     {
       "match": "name:poistov|generali|allianz|kooperativa|\\bunion\\b|\\bvszp\\b|\\bdovera\\b|socialna poist",
