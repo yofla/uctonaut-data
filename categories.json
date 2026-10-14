@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "13. 10. 2026 10:32:06",
+  "updatedAt": "14. 10. 2026 13:29:45",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2708,6 +2708,11 @@
       "name": "Lieky",
       "type": "kategoria",
       "parent": "K032"
+    },
+    "K238": {
+      "name": "Podnikanie, Firma, Živnosť",
+      "type": "kategoria",
+      "parent": ""
     }
   },
   "merchants": [
