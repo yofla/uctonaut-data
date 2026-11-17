@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "14. 10. 2026 13:29:45",
+  "updatedAt": "17. 11. 2026 15:32:46",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2713,6 +2713,16 @@
       "name": "Podnikanie, Firma, Živnosť",
       "type": "kategoria",
       "parent": ""
+    },
+    "Z068": {
+      "name": "Bevola",
+      "type": "znacka",
+      "parent": "K031"
+    },
+    "B154": {
+      "name": "300ml",
+      "type": "balenie",
+      "parent": "K031"
     }
   },
   "merchants": [
