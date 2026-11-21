@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "17. 11. 2026 15:32:46",
+  "updatedAt": "21. 11. 2026 17:06:41",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2723,6 +2723,21 @@
       "name": "300ml",
       "type": "balenie",
       "parent": "K031"
+    },
+    "K239": {
+      "name": "Paštéty",
+      "type": "kategoria",
+      "parent": "K146"
+    },
+    "Z069": {
+      "name": "Májka",
+      "type": "znacka",
+      "parent": "K001"
+    },
+    "B155": {
+      "name": "75g",
+      "type": "balenie",
+      "parent": "K001"
     }
   },
   "merchants": [
