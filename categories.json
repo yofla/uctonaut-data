@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "23. 11. 2026 22:23:23",
+  "updatedAt": "23. 11. 2026 22:41:04",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2763,6 +2763,11 @@
       "name": "Ríbezľový",
       "type": "vlastnost",
       "parent": "K049"
+    },
+    "K241": {
+      "name": "Veterinár",
+      "type": "kategoria",
+      "parent": "K040"
     }
   },
   "merchants": [
