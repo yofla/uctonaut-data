@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "23. 11. 2026 17:30:12",
+  "updatedAt": "23. 11. 2026 21:49:05",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2748,6 +2748,11 @@
       "name": "330g",
       "type": "balenie",
       "parent": "K001"
+    },
+    "B157": {
+      "name": "1l",
+      "type": "balenie",
+      "parent": "K031"
     }
   },
   "merchants": [
