@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "23. 11. 2026 21:49:05",
+  "updatedAt": "23. 11. 2026 22:04:36",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2753,6 +2753,11 @@
       "name": "1l",
       "type": "balenie",
       "parent": "K031"
+    },
+    "Z070": {
+      "name": "Danette",
+      "type": "znacka",
+      "parent": "K074"
     }
   },
   "merchants": [
