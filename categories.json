@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "21. 11. 2026 17:06:41",
+  "updatedAt": "23. 11. 2026 17:30:12",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2736,6 +2736,16 @@
     },
     "B155": {
       "name": "75g",
+      "type": "balenie",
+      "parent": "K001"
+    },
+    "K240": {
+      "name": "Lokše",
+      "type": "kategoria",
+      "parent": "K056"
+    },
+    "B156": {
+      "name": "330g",
       "type": "balenie",
       "parent": "K001"
     }
