@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "23. 11. 2026 22:04:36",
+  "updatedAt": "23. 11. 2026 22:06:47",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2758,6 +2758,11 @@
       "name": "Danette",
       "type": "znacka",
       "parent": "K074"
+    },
+    "V110": {
+      "name": "Ríbezľový",
+      "type": "vlastnost",
+      "parent": "K049"
     }
   },
   "merchants": [
