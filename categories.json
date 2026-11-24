@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "23. 11. 2026 22:41:04",
+  "updatedAt": "24. 11. 2026 11:02:22",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2768,6 +2768,11 @@
       "name": "Veterinár",
       "type": "kategoria",
       "parent": "K040"
+    },
+    "B158": {
+      "name": "2.5kg",
+      "type": "balenie",
+      "parent": "K001"
     }
   },
   "merchants": [
