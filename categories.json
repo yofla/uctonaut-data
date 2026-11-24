@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "24. 11. 2026 11:02:22",
+  "updatedAt": "24. 11. 2026 14:46:23",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2773,6 +2773,11 @@
       "name": "2.5kg",
       "type": "balenie",
       "parent": "K001"
+    },
+    "K242": {
+      "name": "Kakao",
+      "type": "kategoria",
+      "parent": "K057"
     }
   },
   "merchants": [
