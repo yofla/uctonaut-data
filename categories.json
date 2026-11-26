@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "24. 11. 2026 14:46:23",
+  "updatedAt": "26. 11. 2026 13:36:27",
   "name": "Kategórie",
   "description": "Zoznam kategórií pre položky účtov",
   "data": {
@@ -2778,6 +2778,11 @@
       "name": "Kakao",
       "type": "kategoria",
       "parent": "K057"
+    },
+    "K243": {
+      "name": "Elektronika",
+      "type": "kategoria",
+      "parent": "K029"
     }
   },
   "merchants": [
